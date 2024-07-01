@@ -1,16 +1,19 @@
 header
 {
-    background-color: #000000;
+    background-color: #333333;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    width: 100%;
     gap: 0px;
-    opacity: 85%;
-    padding: 0px 160px 0 160px;
+    
+    /*padding: 0px 160px 0 160px;*/
+    position: fixed;
 
       
 }
+ 
 
 .imagem-navbar
 {
@@ -20,12 +23,14 @@ header
     left: 160px;
     gap: 0px;
     opacity: 0px;
+    padding-left: 160px;
 
 }
 
 header ul
 {
     display: flex;
+    padding-right: 160px;
 }
 
 header a
@@ -33,7 +38,7 @@ header a
     text-decoration: none;
     color: #FFFFFF;
     font-family: "Poppins", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     font-style: normal;
     padding-right: 30px;

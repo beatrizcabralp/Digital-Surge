@@ -1,7 +1,102 @@
-.privet
+body
 {
-    width: 300px;
-    height: 500px;
-    color:  white;
-    background-color: aqua;
+    max-width: 16000px;
+}
+
+main
+{
+    display: flex;
+    padding-top: 20px;
+}
+
+.inicio
+{
+      
+   height: 800px;
+   width: 100%;
+   background-image: url("../imagens/inicio/banner1.svg");
+   background-color: #333333;
+   background-size: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+    
+}
+
+
+
+.banner-elementos
+{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+
+.caixa-frase
+{
+   width: 577px;
+   height: 400px;
+   top: 175px;
+   left: 160px;
+   gap: 0px;
+   opacity: 0px;
+   display: flex;
+}
+
+.frase-inicio
+{
+   
+   gap: 0px;
+   opacity: 0px;
+   font-family: Poppins;
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 80px;
+   text-align: left;
+   color: #F2F2F2;
+
+}
+
+.underline
+{
+    text-decoration: underline;
+    text-decoration-color: #FF5733;
+    ;
+    
+   gap: 0px;
+   opacity: 0px;
+   font-family: Poppins;
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 80px;
+   text-align: left;
+   color: #F2F2F2;
+}
+
+
+.caixa-grafico
+{
+  width: 620px;
+  height: 456px;
+  top: 159px;
+  left: 820px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  
+}
+
+.grafico
+{
+   width: 620px;
+   height: 456px;
+   top: 159px;
+   left: 820px;
+   gap: 0px;
+   opacity: 0px;
+
 }
