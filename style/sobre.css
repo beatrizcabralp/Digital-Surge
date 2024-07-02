@@ -4,11 +4,12 @@
     padding-top: 70px;
     flex-direction: column;
     
+    
 }
 
 .sobre-texto
 {
-   padding-left: 70px;
+    padding-left: 70px;
    left: 160px;
 
 }
@@ -28,6 +29,7 @@
     left: 160px;
     gap: 0px;
     opacity: 0px;
+    
 
 
     
@@ -55,6 +57,15 @@
 .equipe 
 {
     display: flex;
+    width: 100%;
+    max-width: 1430px;
+    height: 472px;
+    top: 919px;
+    left: 85px;
+    gap: 0px;
+    opacity: 0px;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -73,11 +84,82 @@
    text-align: left;
    color: #333333;
    display: flex;
-   justify-content: left;
-   padding-left: 70px;
+   position: relative;
+   padding-bottom: 50px;
+   top: 0;
+   left: -520px;
 
    
 
+}
 
 
+.blocos-equipe
+{
+    background-color: gray;
+    width: 94%;
+    max-width: 1430px;
+    height: 420px;
+    top: 971px;
+    left: 85px;
+    gap: 0px;
+    opacity: 0px;
+
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+   
+    
+
+}
+
+.bloco-equipe1
+{
+    background-color: #F2F2F2;
+   width: 450px;
+   height: 420px;
+   top: 971px;
+   left: 85px;
+   gap: 0px;
+   opacity: 0px;
+   border-right: 50px solid #FFFFFF;
+   
+   
+
+}
+
+.bloco-espacovazio
+{
+    padding-left: 85px;
+    color: #FFFFFF;
+}
+
+.bloco-equipe2
+{
+    background-color: #F2F2F2;
+    width: 450px;
+    height: 420px;
+    top: 971px;
+    left: 85px;
+    gap: 0px;
+    opacity: 0px;
+    border-right: 50px solid #FFFFFF;
+    
+    
+}
+
+.bloco-equipe3
+{
+   background-color: #F2F2F2;
+   width: 450px;
+   height: 420px;
+   top: 971px;
+   left: 85px;
+   gap: 0px;
+   opacity: 0px;
+
+   display: flex;
+   
+   
 }
