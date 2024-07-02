@@ -2,6 +2,7 @@
 {
     display: flex;
     padding-top: 70px;
+    flex-direction: column;
     
 }
 
@@ -35,6 +36,7 @@
 .sobre p
 {
    padding-top: 50px;
+   padding-bottom: 50px;
    font-family: "Lato", sans-serif;
    font-size: 18px;
    font-weight: 500;
@@ -46,6 +48,36 @@
    left: 160px;
    gap: 0px;
    opacity: 0px;
+
+
+}
+
+.equipe 
+{
+    display: flex;
+
+}
+
+.nossa-equipe
+{
+   width: 173px;
+   height: 32px;
+   top: 919px;
+   left: 160px;
+   gap: 0px;
+   opacity: 0px;
+   font-family: Poppins;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 32px;
+   text-align: left;
+   color: #333333;
+   display: flex;
+   justify-content: left;
+   padding-left: 70px;
+
+   
+
 
 
 }
