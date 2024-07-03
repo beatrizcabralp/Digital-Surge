@@ -124,10 +124,33 @@
    gap: 0px;
    opacity: 0px;
    border-right: 50px solid #FFFFFF;
+   display: flex;
+   justify-content:flex-end;
+   align-items: flex-start;
    
    
-
 }
+
+
+
+.traco-laranja
+{
+
+    
+    width: 20px;
+    height: 10px;
+    top: 991px;
+    left: 506px;
+    border-radius: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #FF5733;
+    display: flex; 
+    margin-top: 20px;
+    margin-right: 20px;
+    border-right: 4px solid #FF5733;
+    
+}
+
 
 .bloco-espacovazio
 {
@@ -145,6 +168,9 @@
     gap: 0px;
     opacity: 0px;
     border-right: 50px solid #FFFFFF;
+    display: flex;
+   justify-content:flex-end;
+   align-items: flex-start;
     
     
 }
@@ -158,8 +184,9 @@
    left: 85px;
    gap: 0px;
    opacity: 0px;
-
    display: flex;
+   justify-content:flex-end;
+   align-items: flex-start;
    
    
 }
