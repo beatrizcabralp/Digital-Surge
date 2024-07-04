@@ -9,7 +9,7 @@
 
 .sobre-texto
 {
-    padding-left: 70px;
+    
    left: 160px;
 
 }
@@ -29,13 +29,14 @@
     left: 160px;
     gap: 0px;
     opacity: 0px;
+    padding-left: 70px;
     
 
 
     
 }
 
-.sobre p
+.sobreparagrafo
 {
    padding-top: 50px;
    padding-bottom: 50px;
@@ -44,13 +45,15 @@
    font-weight: 500;
    line-height: 24px;
    text-align: left;
-   width: 1280px;
    height: 48px;
    top: 839px;
    left: 160px;
    gap: 0px;
    opacity: 0px;
-
+   padding-left: 70px;
+   margin-right: 50px;
+  
+   
 
 }
 
@@ -66,6 +69,7 @@
     opacity: 0px;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 
 }
 
@@ -155,7 +159,6 @@
     
     margin-top: 0px;
     margin-left: 25px;
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -235,9 +238,18 @@
 }
 */
 
+.info-equipe3
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    width: 340px;
+
+}
+
 .linha-equipe
 {
-    width: 380px;
+    width: 340px;
     height: 2px;
     top: 1090px;
     left: 120px;
@@ -245,10 +257,36 @@
     border-radius: 2px 0px 0px 0px;
     opacity: 0px;
     color: #F0EEEE;
-    border: 1px solid #F0EEEE;
-
-
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 10px solid #F0EEEE;
 }
+
+
+.texto-equipe
+{
+    width: 340px;
+    height: 224px;
+    top: 1104px;
+    left: 125px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.texto-equipe p
+{
+    display: inline;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #666666;
+  
+}
+ 
+
 .bloco-equipe2
 {
     background-color: #F2F2F2;
