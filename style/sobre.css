@@ -315,3 +315,196 @@
    
    
 }
+
+.nossa-visao
+{
+   width: 1280px;
+   height: 94px;
+   top: 1699px;
+   left: 160px;
+   gap: 0px;
+   opacity: 0px;
+
+}
+
+.visao-titulo
+{
+    
+    height: 32px;
+    top: 1699px;
+    left: 160px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 70px;
+    text-transform: uppercase;
+    
+    
+
+}
+
+.bloco-visao
+{
+    width: 1250px;
+    height: 50px;
+    top: 1743px;
+    left: 160px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #F0EEEE;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+
+}
+
+/*
+.caixa-laranja2
+{
+    width: 20px;
+    height: 10px;
+    top: 991px;
+    left: 506px;
+    border-radius: 1px 0px 0px 0px;
+    
+    margin-top: 20px;
+    display: flex;
+    margin-left: 30px;
+    
+    
+}*/
+
+.traco-laranja2
+{
+    width: 20px;
+    height: 10px;
+    top: 991px;
+    left: 506px;
+    border-radius: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #333333;;
+    margin-top: 20px;
+    display: flex;
+    
+    border-right: 4px solid #FF5733;
+    
+}
+
+
+
+.texto-visao
+{
+    width: 1111px;
+    height: 24px;
+    top: 1756px;
+    left: 199px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+    margin-top: 12px;
+    margin-left: 10px;
+    height: 10px;
+    top: 991px;
+    left: 506px;
+    border-radius: 1px 0px 0px 0px;
+    opacity: 0px;
+   
+    
+    display: flex;    
+
+}
+
+.nossos-valores 
+{
+    width: 1250px;
+    height: 342px;
+    top: 1825px;
+    left: 160px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 60px;
+    margin-left: 70px;
+
+}
+
+.valores-titulo
+{
+    width: 219px;
+    height: 32px;
+    top: 1825px;
+    left: 160px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #333333;
+
+}
+
+.bloco-valores
+{
+    width: 1250px;
+    height: 50px;
+    top: 1869px;
+    left: 160px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #F0EEEE;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    
+}
+
+.frases-valores
+{
+    width: 1111px;
+    height: 24px;
+    top: 1756px;
+    left: 199px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+    margin-top: 12px;
+    margin-left: 10px;
+    height: 10px;
+    top: 991px;
+    left: 506px;
+    border-radius: 1px 0px 0px 0px;
+    opacity: 0px;
+   
+    
+    display: flex; 
+}
+
+
+
