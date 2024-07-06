@@ -50,31 +50,29 @@ header a
     cursor: pointer;
 }
 
-
-@media screen and (max-width: 500px)
+@media screen and (max-width: 499px)
 {
     header
     {
         
-        height: 50px;   
-        justify-content: center;
+        height: 60px;   
     
     }
 
     .imagem-navbar
     {
+      
       width: 58px;
-      height: 25px;
+      height: 35px;
+      padding-left: 40px;
      
-
      }
 
      header ul
      {
-       display: flex;
-       padding-left: 100px;
        
-    
+       padding-left: 90px;
+
      }
 
      
@@ -82,51 +80,73 @@ header a
     {
        font-size: 12px;
        padding-right: 10px;
+          
+    }
+}
+
+
+@media screen and (500px <= width <= 614px)
+{
+    header
+    {
+        
+        height: 80px;   
+    
+    }
+
+    .imagem-navbar
+    {
+      
+      width: 87px;
+      height: 35px;
+      padding-left: 40px;
+     
+     }
+
+     header ul
+     {
        
-       
+       padding-left: 140px;
+
+     }
+
+     
+     header a
+    {
+       font-size: 14px;
+       padding-right: 10px;
+          
     }
      
 }
 
 
-@media screen and (max-width: 850px) and(min-width:501px)
+@media screen and (615px <= width <= 1000px)
 {
-    header
+   
+    .imagem-navbar
+    {
+
+      padding-left: 50px;
+
+     }
+
+     header ul
+     {
+
+       display: flex;
+       padding-left: 150px;
+       padding-right: 50px;
+       
+     }
+
+     
+     header a
     {
     
-    
-    justify-content: center;
-    height: 50px;
-    width: 100%;
-    gap: 0px;
-    position: fixed;
-    
-      
-    }
- 
-
-.imagem-navbar
-{
-    width: 55px;
-    height: 50px;
-    padding-left: 50px;
-
-}
-
-header ul
-{
-    display: flex;
-    height: 14px;
-    
-}
-
-header a
-{
-
-    font-size: 10px;
-    padding-right: 30px;
+       padding-right: 10px;   
        
-}
+    }
 
 
 
