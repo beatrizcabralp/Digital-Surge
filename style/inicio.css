@@ -100,11 +100,11 @@ main
 
 }
 
-@media screen and (max-width: 508px)
+@media screen and (max-width: 499px)
 {
     body
 {
-    max-width: 508px;
+    
     width: 100%;
 }
 
