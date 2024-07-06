@@ -121,8 +121,9 @@ main
    width: 100%;
    background-image: url("../imagens/inicio/banner1.svg");
    background-color: #333333;
-   background-size: 100%;
+   background-size: 508px;
    display: flex;
+   background-repeat: no-repeat;
 
    
     
