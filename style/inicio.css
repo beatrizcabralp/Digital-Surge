@@ -1,6 +1,7 @@
 body
 {
     max-width: 1600px;
+    width: 100%;
 }
 
 main
@@ -96,5 +97,86 @@ main
    left: 820px;
    gap: 0px;
    opacity: 0px;
+
+}
+
+@media screen and (max-width: 508px)
+{
+    body
+{
+    max-width: 508px;
+    width: 100%;
+}
+
+main
+{
+   
+    padding-top: 20px;
+}
+
+.inicio
+{
+      
+   height: 362px;
+   width: 100%;
+   background-image: url("../imagens/inicio/banner1.svg");
+   background-color: #333333;
+   background-size: 100%;
+   display: flex;
+
+   
+    
+    
+}
+
+
+
+.banner-elementos
+{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+
+.caixa-frase
+{
+    width: 324px;
+    height: 96px;
+    top: 70px;
+    left: 18px;
+    gap: 0px;
+    opacity: 0px;
+    
+   display: flex;
+}
+
+.frase-inicio
+{
+   
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #F2F2F2;
+
+}
+
+.underline
+{
+    text-decoration: underline;
+    text-decoration-color: #FF5733;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    
+    color: #F2F2F2;
+}
+
 
 }

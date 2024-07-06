@@ -51,7 +51,81 @@ header a
 }
 
 
+@media screen and (max-width: 508px)
+{
+    header
+    {
+        max-width: 508px;
+       
+        width: 100%;
+       
+    
+          
+    }
+     
+}
 
+
+@media screen and (max-width: 750px)
+{
+    header
+{
+    max-width: 750px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    gap: 0px;
+    
+    /*padding: 0px 160px 0 160px;*/
+    position: fixed;
+
+      
+}
+ 
+
+.imagem-navbar
+{
+    width: 55px;
+    height: 50px;
+    top: 25px;
+    left: 160px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 50px;
+
+}
+
+header ul
+{
+    display: flex;
+    
+    height: 14px;
+    
+}
+
+header a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    padding-right: 30px;
+    
+    
+    
+}
+
+.seta
+{
+    cursor: pointer;
+}
+
+}
 
 
 
