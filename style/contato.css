@@ -2,23 +2,45 @@
 {
    width: 100%;
    height: 1181px;
-   top: 3127px;
    background: #F7F7F7;
-   display: flex;
-   flex-direction: row;
-   margin-top: 50px;
+   
+}
+
+.texto-contato
+{
+    display: block;
+    padding-left: 50px;
+   
+}
+.titulo-contato
+{
+    margin-top: 180px;
+   width: 202px;
+   height: 52px;
+   font-family: Poppins;
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 52px;
+   text-align: left;
+   color: #333333;
+}
+
+.contato-itens
+{
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .mapa
 {
     width: 510px;
     height: 930px;
-    top: 3291px;
-    left: 160px;
     border-radius: 5px 0px 0px 5px;
     background: #121212;
 
 }
+
 
 .itens-mapa
 {
@@ -30,8 +52,6 @@
 {
    width: 186px;
    height: 32px;
-   top: 3331px;
-   left: 200px;
    font-family: Lato;
    font-size: 24px;
    font-weight: 600;
@@ -47,8 +67,6 @@
 {
     width: 195px;
     height: 24px;
-    top: 3671px;
-    left: 200px;
     font-family: Lato;
     font-size: 16px;
     font-weight: 600;
@@ -56,8 +74,8 @@
     letter-spacing: 0.015em;
     text-align: left;
     color: #C4C4C4;
-    margin-top: 80px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 
     
 }
@@ -66,8 +84,6 @@
 {
     width: 430px;
     height: 224px;
-    top: 3387px;
-    left: 200px;
     font-family: Lato;
     font-size: 18px;
     font-weight: 500;
@@ -80,14 +96,13 @@
 {
   display: flex;
   flex-direction: row;
+  margin-bottom: 30px;
 }
 
 .icone-localizacao
 {
     width: 20px;
     height: 20px;
-    top: 3709px;
-    left: 200px;
     padding: 1.67px 3.33px 1.94px 3.33px;
 }
 
@@ -95,8 +110,6 @@
 {
     width: 382px;
     height: 24px;
-    top: 3707px;
-    left: 224px;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
@@ -106,17 +119,145 @@
     display: flex;
     margin-left: 1px;
 
-    
+}
 
+.icone-mapa
+{
+    width: 430px;
+    height: 430px;
+    border-radius: 5px;
 }
 
 .formulario
 {
     width: 1280px;
     height: 930px;
-    top: 3291px;
-    left: 160px;
-    border-radius: 5px 0px 0px 0px;
+    border-radius: 0px 5px 5px 0px;
     background: #F2F2F2;
 
+}
+
+.itens-formulario
+{
+    margin: 50px;
+    margin-left: 25px;
+}
+
+.preencher
+{
+    width: 153px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.traco-laranja3
+{
+    width: 20px;
+    height: 10px;
+    border-radius: 1px 0px 0px 0px;  
+    color: #333333;;
+    border-right: 4px solid #FF5733; 
+    margin-top: 3px;
+}
+
+.preencher h4
+{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    display: flex;
+    text-wrap: nowrap;
+    margin-left: 10px;
+}
+
+.formulario-blocos
+{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+     
+}
+
+.bloco-horizontal1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formulario-bloco1
+{
+    width: 50px;
+    height: 24px;
+    top: 3387px;
+    text-wrap: nowrap;
+    color: #333333;
+}
+
+.formulario-nome
+{
+    width: 315px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #F7F7F7;
+    
+}
+
+.formulario-bloco2
+{
+    width: 50px;
+    height: 24px;
+    padding-bottom: 70px;
+    padding-right: 250px;
+    
+}
+
+.formulario-mensagem
+{
+    width: 690px;
+    height: 200px;
+    border-radius: 5px;
+    border:1px solid  #F7F7F7;
+}
+
+.formulario-checkin
+{
+    width: 50px;
+    height: 24px;
+    top: 3387px;
+    text-wrap: nowrap;
+    color: #333333;
+    margin-top: 230px;
+}
+
+.botao-enviar
+{
+    width: 296px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 5px;
+    background: #FF5733;
+    border: 1px solid #FF5733;
+    margin-top: 30px;
+}
+
+.botao-enviar 
+{
+   font-family: Lato;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 24px;
+   text-align: left;
+   text-transform: uppercase;
 }
