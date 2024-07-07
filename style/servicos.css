@@ -8,7 +8,6 @@
    opacity: 0px;
    background: #121212;
    margin-top: 50px;
-   overflow-x: hidden;
 
 }
 
@@ -49,9 +48,7 @@
    color: #FFFFFF;
    margin-left: 70px;
    padding-bottom: 30px;
-
    
- 
 }
 
 .card-image {
