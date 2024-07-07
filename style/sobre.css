@@ -1,23 +1,18 @@
-.sobre
+#sobre
 {
     display: flex;
-    padding-top: 70px;
+    padding-top: 110px;
     flex-direction: column;
     width: 100%;
-    
-    
-    
 }
 
 .sobre-texto
-{
-    
+{  
    left: 160px;
-
 }
 
 
-.sobre h2
+.sobre-texto h2
 {
     color: #333333;
     font-family: Poppins;
@@ -27,15 +22,7 @@
     text-align: left;
     width: 513px;
     height: 52px;
-    top: 755px;
-    left: 160px;
-    gap: 0px;
-    opacity: 0px;
-    padding-left: 70px;
-    
-
-
-    
+    padding-left: 70px; 
 }
 
 .sobreparagrafo
@@ -48,15 +35,21 @@
    line-height: 24px;
    text-align: left;
    height: 48px;
-   top: 839px;
-   left: 160px;
-   gap: 0px;
-   opacity: 0px;
    padding-left: 70px;
-   margin-right: 50px;
-  
-   
-
+   margin-right: 50px; 
+}
+.sobreparagrafo2
+{
+   padding-top: 50px;
+   padding-bottom: 50px;
+   font-family: "Lato", sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 24px;
+   text-align: left;
+   height: 48px;
+   padding-left: 70px;
+   margin-right: 50px; 
 }
 
 .equipe 
@@ -65,24 +58,15 @@
     width: 100%;
     max-width: 1430px;
     height: 472px;
-    top: 919px;
-    left: 85px;
-    gap: 0px;
-    opacity: 0px;
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
-
 }
 
 .nossa-equipe
 {
    width: 173px;
    height: 32px;
-   top: 919px;
-   left: 160px;
-   gap: 0px;
-   opacity: 0px;
    font-family: Poppins;
    font-size: 24px;
    font-weight: 600;
@@ -92,13 +76,8 @@
    display: flex;
    position: relative;
    padding-bottom: 50px;
-   top: 0;
    left: -520px;
-
-   
-
 }
-
 
 .blocos-equipe
 {
@@ -106,18 +85,10 @@
     width: 94%;
     max-width: 1430px;
     height: 420px;
-    top: 971px;
-    left: 85px;
-    gap: 0px;
-    opacity: 0px;
-
     display: flex;
     align-items: center;
     align-content: stretch;
     justify-content: center;
-   
-    
-
 }
 
 .bloco-equipe1
@@ -125,47 +96,28 @@
    background-color: #F2F2F2;
    width: 450px;
    height: 420px;
-   top: 971px;
-   left: 85px;
-   gap: 0px;
-   opacity: 0px;
-   border-right: 50px solid #FFFFFF;
-   
-   
-   
+   border-right: 50px solid #FFFFFF;     
 }
-
-
 
 .traco-laranja
 {
-
-    
     width: 20px;
     height: 10px;
-    top: 991px;
-    left: 506px;
     border-radius: 1px 0px 0px 0px;
-    opacity: 0px;
     color: #FF5733;
     display: flex; 
     margin-top: 20px;
     margin-left: 350px;
-    border-right: 4px solid #FF5733;
-    
-    
+    border-right: 4px solid #FF5733;    
 }
 
 .info-equipe
-{
-    
+{  
     margin-top: 0px;
     margin-left: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-   
-       
 }
 
 .info-equipe2
@@ -175,19 +127,10 @@
     margin-left: 10px;
 }
 
-.foto-equipe
-{
-
-}
-
 .nome-equipe
 {
   width: 182px;
   height: 24px;
-  top: 1011px;
-  left: 215px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Poppins;
   font-size: 23px;
   font-weight: 600;
@@ -196,19 +139,12 @@
   text-align: left;
   color: #333333;
   display: flex;
-  
-
-
 }
 
 .funcao-equipe
 {
     width: 147px;
     height: 16px;
-    top: 1038px;
-    left: 215px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Lato;
     font-size: 11px;
     font-weight: 600;
@@ -216,9 +152,6 @@
     text-align: left;
     color: #C4C4C4;
     display: flex;
-    
-    
-
 }
 
 .icone-equipe
@@ -227,18 +160,9 @@
     height: 24px;
     top: 1056px;
     left: 215px;
-    padding: 2.7px 3.23px 2.7px 3.23px;
-    gap: 0px;
-    opacity: 0px;
+    padding: 2.7px 3.23px 2.7px 3.23px;  
+}
 
-}
-/*
-.bloco-espacovazio
-{
-    padding-left: 85px;
-    color: #FFFFFF;
-}
-*/
 
 .info-equipe3
 {
@@ -246,18 +170,13 @@
     flex-direction: column;
     margin-left: 25px;
     width: 340px;
-
 }
 
 .linha-equipe
 {
     width: 340px;
     height: 2px;
-    top: 1090px;
-    left: 120px;
-    gap: 0px;
-    border-radius: 2px 0px 0px 0px;
-    opacity: 0px;
+    border-radius: 2px 0px 0px 0px; 
     color: #F0EEEE;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -269,11 +188,6 @@
 {
     width: 340px;
     height: 224px;
-    top: 1104px;
-    left: 125px;
-    gap: 0px;
-    opacity: 0px;
-    
 }
 
 .texto-equipe p
@@ -285,7 +199,6 @@
     line-height: 32px;
     text-align: left;
     color: #666666;
-  
 }
  
 
@@ -294,28 +207,14 @@
     background-color: #F2F2F2;
     width: 450px;
     height: 420px;
-    top: 971px;
-    left: 85px;
-    gap: 0px;
-    opacity: 0px;
-    border-right: 50px solid #FFFFFF;
-    
-    
-    
+    border-right: 50px solid #FFFFFF;     
 }
 
 .bloco-equipe3
 {
    background-color: #F2F2F2;
    width: 450px;
-   height: 420px;
-   top: 971px;
-   left: 85px;
-   gap: 0px;
-   opacity: 0px;
-   
-   
-   
+   height: 420px;   
 }
 
 .nossa-visao
@@ -323,21 +222,11 @@
    width: 100%;
    max-width: 1280px;
    height: 94px;
-   top: 1699px;
-   left: 160px;
-   gap: 0px;
-   opacity: 0px;
-
 }
 
 .visao-titulo
-{
-    
+{  
     height: 32px;
-    top: 1699px;
-    left: 160px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Lato;
     font-size: 24px;
     font-weight: 700;
@@ -349,56 +238,36 @@
     margin-bottom: 10px;
     padding-left: 70px;
     text-transform: uppercase;
-    
-    
 
 }
 
 .bloco-visao
 {
     width: 1250px;
-    height: 50px;
-    top: 1743px;
-    left: 160px;
-    gap: 0px;
+    height: 50px; 
     border-radius: 5px 0px 0px 0px;
-    opacity: 0px;
     background: #F0EEEE;
     margin-left: 70px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    
-
 }
-
 
 .traco-laranja2
 {
     width: 20px;
     height: 10px;
-    top: 991px;
-    left: 506px;
-    border-radius: 1px 0px 0px 0px;
-    opacity: 0px;
+    border-radius: 1px 0px 0px 0px;  
     color: #333333;;
     margin-top: 20px;
     display: flex;
-    
-    border-right: 4px solid #FF5733;
-    
+    border-right: 4px solid #FF5733; 
 }
-
-
 
 .texto-visao
 {
     width: 1111px;
     height: 24px;
-    top: 1756px;
-    left: 199px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Lato;
     font-size: 18px;
     font-weight: 500;
@@ -408,37 +277,22 @@
     margin-top: 12px;
     margin-left: 10px;
     height: 10px;
-    top: 991px;
-    left: 506px;
-    border-radius: 1px 0px 0px 0px;
-    opacity: 0px;
-   
-    
+    border-radius: 1px 0px 0px 0px; 
     display: flex;    
-
 }
 
 .nossos-valores 
 {
     width: 1250px;
     height: 342px;
-    top: 1825px;
-    left: 160px;
-    gap: 0px;
-    opacity: 0px;
     margin-top: 60px;
     margin-left: 70px;
-
 }
 
 .valores-titulo
 {
     width: 219px;
     height: 32px;
-    top: 1825px;
-    left: 160px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Lato;
     font-size: 24px;
     font-weight: 700;
@@ -446,36 +300,25 @@
     letter-spacing: 0.015em;
     text-align: left;
     color: #333333;
-
 }
 
 .bloco-valores
 {
     width: 1250px;
     height: 50px;
-    top: 1869px;
-    left: 160px;
-    gap: 0px;
     border-radius: 5px 0px 0px 0px;
-    opacity: 0px;
     background: #F0EEEE;
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-
-    
+    flex-wrap: nowrap;    
 }
 
 .frases-valores
 {
     width: 1111px;
     height: 24px;
-    top: 1756px;
-    left: 199px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Lato;
     font-size: 18px;
     font-weight: 500;
@@ -485,14 +328,146 @@
     margin-top: 12px;
     margin-left: 10px;
     height: 10px;
-    top: 991px;
-    left: 506px;
     border-radius: 1px 0px 0px 0px;
-    opacity: 0px;
-   
-    
     display: flex; 
 }
 
 
 
+@media screen and (max-width: 508px) 
+{
+    #sobre
+    {
+        padding-top: 0px;
+        width: 508px;
+    }
+
+    .sobre-texto
+    {  
+       display: flex;
+       flex-direction: column;
+    }
+    .sobre-texto h2
+    {
+    font-size: 20px;
+    line-height: 32px;
+    width: 513px;
+    height: 52px;
+    padding-left: 70px;
+    padding-top: 20px;
+    }
+
+    .sobreparagrafo
+    {
+        padding-top:20px;
+        flex-direction: column;
+        font-size: 14px;
+        line-height: 14px;
+        width: 312px;
+    }
+    .sobreparagrafo2
+    {
+       padding-top: 100px;
+        font-size: 14px;
+        line-height: 14px;
+        width: 312px;
+    }
+    .equipe
+    {
+        flex-direction: column;
+        margin-bottom: 550px;
+      
+    }
+
+    .blocos-equipe
+    {
+        flex-direction: column;
+        margin-top: 200px;
+        background-color: #FFFFFF;
+        width: 0;
+        max-width: 0;
+        
+    }
+
+    .bloco-equipe1
+    {
+        width: 326px;
+        
+    }
+    .traco-laranja
+    {
+        margin-left: 270px;
+    }
+    .linha-equipe
+    {
+    width: 286px;
+    height: 1px;
+    }
+    .texto-equipe
+    {
+      width: 272px;
+      height: 168px;
+    }
+    .texto-equipe p
+    {
+    
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    
+    }
+
+    .bloco-equipe2
+    {
+        width: 326px;
+       
+        
+    }
+    .bloco-equipe3
+    {
+        width: 326px;
+        margin-right: 50px;
+     
+        
+    }
+    .nossa-visao
+    {
+        padding-top: 90px;
+       
+    }
+    .bloco-visao
+    {
+        width: 312px;
+        height: 100px;
+    }
+    .texto-visao
+    {
+        width: 272px;
+        height: 80px;
+        font-size: 14px;
+        line-height: 20px;
+        justify-content: center; 
+    }
+    .nossos-valores
+    {
+        padding-top: 50px;
+
+    }
+    .bloco-valores
+    {
+        width: 312px;
+        height: 100px;
+        
+    }
+    .frases-valores
+    {
+    width: 272px;
+    height: 80px;
+    font-size: 14px;
+    line-height: 20px;
+    justify-content: center;
+   
+   }
+
+      
+}

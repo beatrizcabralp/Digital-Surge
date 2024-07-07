@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -13,9 +12,7 @@ p {
     color: #333333
 }
 
-body {
-    margin-top: 95px; 
-}
+
 
 html {
     scroll-behavior: smooth;    
@@ -25,6 +22,7 @@ html {
     background: #121212;
     padding: 80px;
     overflow-x: hidden;
+    padding-top: 100px;
 }
 
 .servicos h2 {
