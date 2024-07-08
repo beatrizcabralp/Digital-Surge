@@ -43,8 +43,9 @@ header a
 .seta
 {
     cursor: pointer;
-}
 
+}
+/*
 @media screen and (max-width: 499px)
 {
     header
@@ -78,7 +79,7 @@ header a
     }
 }
 
-/*
+
 @media screen and (500px <= width <= 614px)
 {
     header
