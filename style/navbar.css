@@ -8,6 +8,7 @@ header
     width: 100%;
     margin-bottom: 95px;
     position: fixed;  
+    z-index: 1000;
 }
  
 
