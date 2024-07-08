@@ -1,6 +1,6 @@
 .itens-footer
 {
-    
+    text-decoration: none;
 }
 
 .inicio-footer
@@ -149,7 +149,7 @@
 .footer-links a
 {
     color: #C4C4C4;
-    text-decoration: underline;
+    text-decoration: none;
 
 }
 
