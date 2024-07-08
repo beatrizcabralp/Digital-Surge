@@ -1,0 +1,128 @@
+.itens-footer
+{
+    
+}
+
+.inicio-footer
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 520px;
+    display:flex;
+    flex-direction: row;
+    background: #333333;
+
+}
+
+.icone-digitalsurge
+{
+    width: 116px;
+    height: 50px;
+    top: 60px;
+    left: 160px;
+    color: #FFFFFF;
+    background: #333333;
+    margin-left: 116px;
+    padding-top: 50px;
+
+}
+
+.contato-footer
+{
+    width: 360px;
+    height: 254px;
+    margin-left: 276px;
+    padding-top: 50px;
+    
+}
+
+.contato-footer-titulo
+{
+    width: 116px;
+    height: 32px;
+    padding-bottom: 50px;
+}
+
+.contato-footer-titulo p
+{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #F7F7F7;
+
+}
+
+.contato-footer-telefone
+{
+    width: 227px;
+    height: 64px;
+}
+
+.contato-footer-telefone p
+{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #C4C4C4;
+
+}
+
+.linha-footer
+{
+    padding-top: 30px;
+    width: 360px;
+    height: 1px;
+    border-bottom: 1px solid #4D4D4D ;
+    margin-bottom: 30px;
+
+}
+
+.contato-footer-endereco p
+{
+
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #C4C4C4;
+
+}
+
+.redes-sociais
+{
+    width: 160px;
+    height: 32px;
+    color: #F7F7F7;
+}
+
+.informacoes-footer 
+{
+    width: 360px;
+    height: 254px;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+.informacoes-footer-titulo
+{
+    width: 116px;
+    height: 32px;
+    padding-bottom: 50px;
+}
+
+.informacoes-footer-titulo p
+{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #F7F7F7;
+}
