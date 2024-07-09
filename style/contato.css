@@ -14,7 +14,7 @@
 }
 .titulo-contato
 {
-    margin-top: 140px;
+    padding-top: 140px;
     margin-bottom: 20px;
    width: 202px;
    height: 52px;
@@ -295,7 +295,7 @@
   }
 .titulo-contato
 {
-    margin-top: 40px;
+    padding-top: 40px;
     margin-bottom: 10px;
     font-size: 1.5rem;
     line-height: 32px;
@@ -350,6 +350,49 @@
 .itens-mapa h3
 {
     display: none;
+}
+
+.formulario
+{
+    width: 312px;
+    height: 741px;
+   
+}
+.itens-formulario
+{
+    
+}
+.formulario-blocos
+{
+    
+}
+.preencher
+{
+    width: 115px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.015em;
+   
+    
+
+}
+.formulario-bloco-principal
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.formulario-bloco-principal h3
+{
+  height: 16px;
+  padding-bottom: 15px;
+}
+.formulario-bloco1
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
 }
 
 }
