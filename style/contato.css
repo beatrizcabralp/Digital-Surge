@@ -76,8 +76,7 @@
     color: #C4C4C4;
     margin-top: 50px;
     margin-bottom: 10px;
-
-    
+   
 }
 
 .entre-em-contato
@@ -296,26 +295,61 @@
   }
 .titulo-contato
 {
-    margin-top: 140px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
     font-size: 1.5rem;
     line-height: 32px;
-   width: 85px;
-   height: 32px;  
+    width: 85px;
+    height: 32px; 
 }
 .contato-itens
 {
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .mapa
 {
     width: 312px;
     height: 237px;
-    margin-bottom: 900px;
+    padding-bottom: 100px;
+}
+.itens-mapa h2
+{
+    width: 109px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+
+}
+.entre-em-contato
+{
+    width: 272px;
+    height: 180px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.icone-localizacao
+{
+    display: none;
+}
+.endereco
+{
+    display: none;
+}
+.icone-mapa 
+{
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
 }
 
+.itens-mapa h3
+{
+    display: none;
+}
 
 }
