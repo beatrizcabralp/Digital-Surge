@@ -46,12 +46,14 @@ header a
     cursor: pointer;
 
 }
-/*
+
 @media screen and (max-width: 499px)
 {
     header
     {
-        height: 60px;   
+
+        height: 70px;  
+        margin-bottom: 5px;
       
     }
 
@@ -60,14 +62,14 @@ header a
       
       width: 58px;
       height: 35px;
-      padding-left: 40px;
+      padding-left: 30px;
      
      }
 
      header ul
      {
        
-       padding-left: 90px;
+       padding-left: 65px;
 
      }
 
@@ -147,7 +149,7 @@ header a
 
 
 }
-*/
+
 
 
 

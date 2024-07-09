@@ -100,7 +100,10 @@ html
 @media screen and (max-width: 508px)
 {
  
-
+main 
+{
+    padding-top: 30px;
+}
 #inicio
 {
    background-image: none;

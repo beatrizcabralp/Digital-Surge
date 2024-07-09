@@ -42,7 +42,6 @@
 
 }
 
-
 .itens-mapa
 {
     padding: 40px;
@@ -129,6 +128,8 @@
     border-radius: 5px;
 }
 
+/*inicio do formulario*/
+
 .formulario
 {
     width: 1280px;
@@ -189,20 +190,20 @@
      
 }
 
-.bloco-horizontal1
+.formulario-bloco-principal
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: #333333;
+
 }
 
 .formulario-bloco1
 {
     width: 50px;
     height: 24px;
-    top: 3387px;
     text-wrap: nowrap;
-    color: #333333;
 }
 
 .formulario-nome
@@ -211,6 +212,7 @@
     height: 48px;
     border-radius: 5px;
     border: 1px solid #F7F7F7;
+    padding-left: 7px;
     
 }
 
@@ -223,12 +225,25 @@
     
 }
 
-.formulario-mensagem
+.bloco-mensagem
 {
     width: 690px;
+}
+
+.formulario-mensagem
+{
+    width: 706px;
     height: 200px;
     border-radius: 5px;
     border:1px solid  #F7F7F7;
+    padding-left: 5px;
+    padding-top: 10px;
+    
+}
+
+.formulario-mensagem input
+{
+    border: 3px solid red;
 }
 
 .formulario-checkin
@@ -238,22 +253,17 @@
     top: 3387px;
     text-wrap: nowrap;
     color: #333333;
-    margin-top: 230px;
+    margin-top: 10px;
 }
 
 .botao-enviar
 {
     width: 296px;
     height: 56px;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
-    border-radius: 5px;
-    background: #FF5733;
-    border: 1px solid #FF5733;
-    margin-top: 30px;
+
 }
 
-.botao-enviar 
+.botao-enviar2
 {
    font-family: Lato;
    font-size: 24px;
@@ -261,4 +271,11 @@
    line-height: 24px;
    text-align: left;
    text-transform: uppercase;
+   padding: 16px 32px 16px 32px;
+   gap: 10px;
+   border-radius: 5px;
+   background: #FF5733;
+   border: 1px solid #FF5733;
+   margin-top: 30px;
+   cursor: pointer;
 }
