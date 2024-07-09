@@ -279,3 +279,43 @@
    margin-top: 30px;
    cursor: pointer;
 }
+
+@media screen and (max-width:508px)
+{
+    #contato
+  {
+   width: 100%;
+   height: 1055px;
+  }
+
+.texto-contato
+  {
+    display: block;
+    padding-left: 40px;
+   
+  }
+.titulo-contato
+{
+    margin-top: 140px;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    line-height: 32px;
+   width: 85px;
+   height: 32px;  
+}
+.contato-itens
+{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.mapa
+{
+    width: 312px;
+    height: 237px;
+    margin-bottom: 900px;
+}
+
+
+}
