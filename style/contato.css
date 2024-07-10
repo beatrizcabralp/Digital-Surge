@@ -214,14 +214,23 @@
     text-align: left;
 }
 
+.nome-responsivo
+{
+    display: none;
+}
+
 .formulario-nome
 {
     width: 315px;
     height: 48px;
     border-radius: 5px;
     border: 1px solid #F7F7F7;
-    padding-left: 7px;
-    
+    padding-left: 7px;  
+}
+
+.formulario-nome-responsivo
+{
+    display: none;
 }
 .sobrenome 
 {
@@ -241,6 +250,41 @@
     padding-left: 7px;
     
 }
+.email
+{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: left;
+}
+.formulario-email
+{
+    width: 315px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #F7F7F7;
+    padding-left: 7px;
+}
+.telefone 
+{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: left;
+}
+
+.formulario-telefone
+{
+    width: 315px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #F7F7F7;
+    padding-left: 7px;
+}
 
 .formulario-bloco2
 {
@@ -254,6 +298,16 @@
 .bloco-mensagem
 {
     width: 690px;
+}
+
+.mensagem 
+{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: left;
 }
 
 .formulario-mensagem
@@ -280,6 +334,11 @@
     text-wrap: nowrap;
     color: #333333;
     margin-top: 10px;
+}
+.formulario-checkin p
+{
+   display: inline;
+   margin-left: 5px;
 }
 
 .botao-enviar
@@ -385,14 +444,6 @@
     height: 741px;
    
 }
-.itens-formulario
-{
-    
-}
-.formulario-blocos
-{
-    
-}
 .preencher
 {
     width: 115px;
@@ -400,15 +451,13 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.015em;
-   
-    
-
+    margin-bottom: 30px;
 }
 .formulario-bloco-principal
 {
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .formulario-bloco-principal h3
 {
@@ -437,5 +486,79 @@
 {
     display: none;
 }
+.email
+{
+    margin-top: -140px;
+}
+.formulario-email
+{
+    width: 250px;
+    height: 24px;
+    padding-bottom: 10px;
+}
+.telefone 
+{
+    margin-top: -130px;
+}
+.formulario-telefone
+{
+    width: 250px;
+    height: 34px;
+}
+.nome-responsivo
+{
+    display: block;
+}
+.formulario-nome-responsivo
+{
+    display: block;
+    width: 250px;
+    height: 24px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #F7F7F7;
+    padding-left: 7px;
+}
+.mensagem
+{
+    margin-top: -180px;
+}
+.formulario-mensagem
+{
+    width: 250px;
+    height: 162px;
+    padding-bottom: -100px;
+}
+.formulario-checkin input
+{
+    padding-bottom: 30px;
+    width: 223px;
+    height: 16px;
+    margin-left: -100px;
+}
+.formulario-checkin p
+{
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    display: inline;
+    margin-left: -100px;
+}
+.botao-enviar
+{
+    width: 148px;
+    height: 30px;
+}
+.botao-enviar2 p
+{
+    margin-left: -5px;
+    display: flex;
+    
+}
+
+
 
 }
