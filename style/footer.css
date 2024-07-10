@@ -11,7 +11,6 @@
     display:flex;
     flex-direction: row;
     background: #333333;
-
 }
 
 .icone-digitalsurge
@@ -24,7 +23,6 @@
     background: #333333;
     margin-left: 116px;
     padding-top: 50px;
-
 }
 
 .contato-footer
@@ -32,8 +30,7 @@
     width: 360px;
     height: 254px;
     margin-left: 276px;
-    padding-top: 50px;
-    
+    padding-top: 50px; 
 }
 
 .contato-footer-titulo
@@ -52,7 +49,6 @@
     letter-spacing: 0.015em;
     text-align: left;
     color: #F7F7F7;
-
 }
 
 .contato-footer-telefone
@@ -69,7 +65,6 @@
     line-height: 32px;
     text-align: left;
     color: #C4C4C4;
-
 }
 
 .linha-footer
@@ -79,19 +74,16 @@
     height: 1px;
     border-bottom: 1px solid #4D4D4D ;
     margin-bottom: 30px;
-
 }
 
 .contato-footer-endereco p
 {
-
     font-family: Lato;
     font-size: 18px;
     font-weight: 600;
     line-height: 32px;
     text-align: left;
     color: #C4C4C4;
-
 }
 
 .redes-sociais
@@ -172,6 +164,60 @@
     text-align: left;
     color: #C4C4C4;
     margin-left: -1100px;
-
 }
 
+@media screen and (max-width: 508px)
+{
+    footer 
+    {
+        width: 100%;
+        height: 265px;
+    }
+    .icone-digitalsurge
+    {
+        width: 56px;
+        height: 24px;
+        margin-left: 40px;
+    }
+    .contato-footer
+    {
+        margin-left: -50px;
+        width: 131px;
+        height: 97px;
+        margin-top: 100px;
+    }
+    .contato-footer-titulo
+    {
+        padding-bottom: 0;
+    }
+    .contato-footer-titulo p
+    {
+        width: 48px;
+        height: 12px;
+        font-size: 16px;
+        line-height: 12px;
+        color: #C4C4C4;
+    }
+    .contato-footer-telefone p
+    {
+        width: 126px;
+        height: 24px;
+        font-family: Lato;
+       font-size: 12px;
+       line-height: 12px;
+    }
+    .linha-footer
+    {
+        width: 130px;
+        height: 1px;
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+    .contato-footer-endereco p
+    {
+        width: 102px;
+        height: 24px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
