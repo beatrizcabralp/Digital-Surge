@@ -364,7 +364,26 @@
    margin-top: 30px;
    cursor: pointer;
 }
-
+.titulo-responsivo
+{
+    display: none;
+}
+.localizacao-responsiva
+{
+    display: none;
+}
+.icone-localizacao-responsiva
+{
+    display: none;
+}
+.endereco-responsivo
+{
+    display: none;
+}
+.icone-mapa-responsivo
+{
+    display: none;
+}
 @media screen and (max-width:508px)
 {
     #contato
@@ -442,7 +461,7 @@
 {
     width: 312px;
     height: 741px;
-   
+    padding-bottom: 200px;
 }
 .preencher
 {
@@ -451,7 +470,7 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.015em;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 .formulario-bloco-principal
 {
@@ -488,6 +507,7 @@
 }
 .email
 {
+    font-size: 12px;
     margin-top: -140px;
 }
 .formulario-email
@@ -499,6 +519,7 @@
 .telefone 
 {
     margin-top: -130px;
+    font-size: 12px;
 }
 .formulario-telefone
 {
@@ -508,6 +529,7 @@
 .nome-responsivo
 {
     display: block;
+    font-size: 12px;
 }
 .formulario-nome-responsivo
 {
@@ -519,27 +541,32 @@
     border: 1px solid #F7F7F7;
     padding-left: 7px;
 }
+.bloco-mensagem
+{
+    margin-bottom: -100px;
+}
 .mensagem
 {
     margin-top: -180px;
+    font-size: 12px;
 }
 .formulario-mensagem
 {
     width: 250px;
     height: 162px;
-    padding-bottom: -100px;
+
 }
 .formulario-checkin input
 {
-    padding-bottom: 30px;
     width: 223px;
     height: 16px;
     margin-left: -100px;
 }
+
 .formulario-checkin p
 {
     font-family: Poppins;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0.015em;
@@ -551,14 +578,66 @@
 {
     width: 148px;
     height: 30px;
+    margin-top: -10px;
 }
 .botao-enviar2 p
 {
     margin-left: -5px;
     display: flex;
+    font-size: 14px;
     
 }
-
-
+.titulo-responsivo
+{
+    display: flex;
+    margin-top: 90px;
+    width: 146px;
+    height: 16px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #333333;
+    margin-bottom: -10px;
+    margin-left: 2px;
+}
+.localizacao-responsiva
+{
+    display: flex;
+}
+.icone-localizacao-responsiva
+{
+   display: flex;
+   margin-left: 0px;
+   width: 16px;
+   height: 16px;
+}
+.endereco-responsivo
+{
+    display: flex;
+    width: 244px;
+    height: 14px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #333333;
+    margin-left: 2px;
+    margin-top: 3px;
+    text-wrap: nowrap;
+    
+}
+.icone-mapa-responsivo
+{
+   display: flex;
+   width: 288px;
+   height: 170px;
+   margin-top: 10px;
+   margin-left: -14px;
+}
 
 }
