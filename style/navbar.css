@@ -37,14 +37,17 @@ header a
     font-size: 18px;
     font-weight: 500;
     font-style: normal;
-    padding-right: 30px;
-    
+    padding-right: 30px;   
 }
 
 .seta
 {
     cursor: pointer;
+}
 
+a:hover 
+{
+    color: #FF5733;
 }
 
 @media screen and (max-width: 508px)
