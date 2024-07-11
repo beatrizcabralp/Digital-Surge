@@ -129,7 +129,6 @@
     line-height: 36px;
     text-align: left;
     color: #C4C4C4;
-
 }
 
 .footer-links li
@@ -142,7 +141,6 @@
 {
     color: #C4C4C4;
     text-decoration: none;
-
 }
 
 .direitos-autorais
@@ -203,8 +201,8 @@
         width: 126px;
         height: 24px;
         font-family: Lato;
-       font-size: 12px;
-       line-height: 12px;
+        font-size: 12px;
+        line-height: 12px;
     }
     .linha-footer
     {
@@ -220,4 +218,59 @@
         font-size: 12px;
         line-height: 12px;
     }
+    .informacoes-footer 
+    {
+        margin-left: 100px;
+    }
+    .informacoes-footer-titulo
+    {
+        padding-bottom: 5px;
+        margin-top: 90px;
+    }
+    .informacoes-footer-titulo p
+    {
+        width: 73px;
+        height: 12px;
+        font-size: 16px;
+        font-family: Lato;
+        color: #C4C4C4;
+    }
+    .footer-links
+    {
+        width: 24px;
+        height: 14px;
+        font-family: Lato;
+        font-size: 11px;
+        color: #C4C4C4;
+        margin-bottom: 0px;
+        line-height: 20px;
+    }
+    .footer-links a
+    {
+        margin-bottom: 0px;
+    }
+    .direitos-autorais
+    {
+        width: 147px;
+        height: 6.58px;
+        margin-top: 400px;
+        
+    }
+    .direitos-autorais p
+    {
+        font-family: Lato;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+        
+        color: #C4C4C4;
+        margin-left: -350px;
+    }
+    .redes-sociais
+    {
+        display: none;
+    }
+    
+    
 }
