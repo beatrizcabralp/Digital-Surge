@@ -13,15 +13,9 @@ p {
 }
 
 
-
-html {
-    scroll-behavior: smooth;    
-}
-
 .servicos {
     background: #121212;
     padding: 80px;
-    overflow-x: hidden;
     padding-top: 100px;
 }
 
@@ -48,6 +42,7 @@ html {
     color: #FFFFFF;
 }
 
+/*
 .card-image {
     position: relative; 
     width: 509px;
@@ -84,7 +79,7 @@ html {
     --swiper-navigation-color: #fff;
 }
 
-
+*/
 
 @media (max-width: 508px) {
 
