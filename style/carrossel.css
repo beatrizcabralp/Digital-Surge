@@ -20,7 +20,6 @@ body
 {
     position: relative;
 }
-
 .slide-wrapper .slide-button
 {
     top: 50%;
@@ -44,7 +43,7 @@ body
 /*       posicao dos botoes */
 .slide-wrapper .slide-button#prev-slide
 {
-    left: -20px;
+    left: -30px;
 }
 
 .slide-wrapper .slide-button#next-slide
@@ -115,3 +114,4 @@ body
     top: -10px;
     bottom: -10px;
 }
+

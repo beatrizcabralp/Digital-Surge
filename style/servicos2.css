@@ -42,7 +42,6 @@ p {
     color: #FFFFFF;
 }
 
-/*
 .card-image {
     position: relative; 
     width: 509px;
@@ -50,14 +49,12 @@ p {
     border-radius: 5px;
     cursor: pointer;
 }
-
 .card-image .card-img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
-
 .card-image h2 {
     position: absolute; 
     bottom: 10px; 
@@ -71,6 +68,9 @@ p {
     text-align: center; 
     width: 90%; 
 }
+
+
+/*
 
 .swiper {
     max-width: 1430px;
@@ -89,6 +89,19 @@ p {
         height: 271px;
         border-radius: 5px;
         cursor: pointer;
+    }
+    .card-image h2 {
+        position: absolute; 
+        bottom: 10px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        font-family: Poppins;
+        font-size: 1.5rem;
+        line-height: 40px;
+        color:#F2F2F2;
+        border-radius: 5px; 
+        text-align: center; 
+        width: 90%; 
     }
 
     .swiper {
