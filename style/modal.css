@@ -1,90 +1,62 @@
-/* Estilos para o modal */
-.modal {
-    display: none; /* Escondido por padrão */
-    position: fixed; /* Fixo na tela */
-    z-index: 1; /* Ficar na frente */
-    left: 0;
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .action-modal-mask {
+    display: none;
+    
+    position: fixed;
     top: 0;
-    width: 100%; /* Largura total */
-    height: 100%; /* Altura total */
-    overflow: auto; /* Habilitar rolagem se necessário */
-    background-color: rgb(0,0,0); /* Fallback */
-    background-color: rgba(0,0,0,0.4); /* Fundo com opacidade */
-}
+    left: 0;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: rgb( 0 0 0 / 35%);
+    
+    justify-content: center;
+    align-items: center;
 
-/* Estilo do conteúdo do modal */
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% do topo e centralizado */
-    padding: 70px;
-    border: 1px solid #888;
-    max-width: 1280px; /* Largura máxima */
-    position: relative; /* Adicione esta linha */
-}
-
-/* Estilo do botão de fechar */
-.close {
-    color: #FF5733;
-    float: right;
-    font-size: 1.75rem;
-    font-weight:500; /* Alterar para 'normal' ou um valor mais baixo */
-    position: absolute; /* Posição absoluta */
-    top: 40px; /* Ajuste a distância do topo conforme necessário */
-    right: 40px; /* Ajuste a distância da direita conforme necessário */
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.modal-content p{
-    margin-bottom: 40px;
-}
-
-@media (max-width: 360px) {
-    /* Ajustes para modais em telas pequenas */
-    .modal-content {
-        margin: 50% auto; /* Centralizado com menos margem no topo */
-        padding: 20px; /* Menor padding */
-        width: 90%; /* Ajustar a largura para 90% da tela */
-    }
-
-    .modal-content p {
-        font-size: 1rem;
-    }
-
-    .close {
-        top: 10px; /* Menor distância do topo */
-        right: 10px; /* Menor distância da direita */
-        font-size: 1.5rem; /* Reduzir o tamanho da fonte */
-        display: block; /* Certificar que o botão é exibido */
-    }
-
-    .modal-content p {
-        margin-bottom: 20px; /* Menor margem inferior */
-    }
-
-    .form-parte1 {
-        display: flex;
-        flex-direction: column; /* Colocar itens em coluna */
-    }
-
-    .container1-form-parte1 {
-        margin-bottom: 10px; /* Margem inferior para espaçamento */
-    }
-
-    .input-padrao {
-        width: 100%; /* Ajustar inputs para a largura total */
-    }
-
-    label.checkbox {
-        font-size: 0.8rem; /* Ajustar tamanho da fonte */
-    }
-
-    .enviar {
-        width: 100%; /* Botão de enviar ocupa a largura total */
-    }
-}
+    z-index: 1000;
+  }
+  
+  .action-modal {
+    background-color: white;
+    
+    min-width: 400px;
+    max-width: 1024px;
+    width: 100%;
+  
+    height: fit-content;
+  
+    padding: 20px 50px 50px;
+  }
+  
+  .action-modal > .action-modal--header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .content--form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .content--form > .form--input-row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .content--form > .form--input-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form--input-row > .input-field {
+    display: flex;
+    flex-direction: column;
+  }
