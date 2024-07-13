@@ -72,17 +72,6 @@ p {
 }
 
 
-/*
-
-.swiper {
-    max-width: 1430px;
-    width: 100%;
-    height: 452px;
-    --swiper-navigation-color: #fff;
-}
-
-*/
-
 @media (max-width: 508px) {
 
     .card-image {
@@ -105,13 +94,6 @@ p {
         text-align: center; 
         width: 90%; 
     }
-     /*
-    .swiper {
-       /* max-width: 1430px;
-        width: 100%;
-        height: 271px;
-        --swiper-navigation-color: #fff;
-    }*/
 
     .servicos {
         padding: 20px;

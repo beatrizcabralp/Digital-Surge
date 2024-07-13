@@ -24,13 +24,27 @@
         <link rel="stylesheet" href="../style/servicos2.css">
         <link rel="stylesheet" href="../style/carrossel.css">
         <link rel="stylesheet" href="../style/contato.css">
-        
+        <link rel="stylesheet" href="../style/modal.css">
+
+        <style>
+            .material-symbols-outlined {
+              font-variation-settings:
+              'FILL' 0,
+              'wght' 400,
+              'GRAD' 0,
+              'opsz' 24
+            }
+        </style>
 
 
         <title>digital-surge</title>
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        
         <script src="./js/carrossel.js" defer></script>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
 
 
     </head>
@@ -369,21 +383,248 @@
                             <button id="prev-slide" class="slide-button material-symbols-outlined">chevron_left</button>
                             <div class="image-list">
                                 <div class="card-image">
-                                    <img src="../imagens/servicos/foto2.svg" alt="" class="card-img" data-modal="modal1">
+                                    <img src="../imagens/servicos/foto2.svg"onclick="openModal()"class="card-img">
                                     <h2>Gestão de Mídias Sociais</h2>
+    
+                    <div class="action-modal-mask" id="modalImage">
+                      <div class="action-modal">
+                        <div class="action-modal--header">
+                          <span class="material-symbols-outlined" onclick="closeModal()">
+                            close
+                          </span>
+                        </div>
+                        <div class="action-modal--content">
+                        <div class="content--description">
+                           <p id="content-text">
+                            Nosso serviço de Gestão de Mídias Sociais na Digital Surge é projetado para maximizar sua presença online, engajar seu público e promover sua marca de maneira eficaz. Com estratégias personalizadas e conteúdo atraente, ajudamos a aumentar o alcance e a interação nas suas plataformas sociais. Para saber mais sobre como podemos transformar suas mídias sociais, inscreva-se no formulário e receba nosso material exclusivo diretamente no seu e-mail cadastrado.
+                          </p>
+                        </div>
+                        <div class="content--form">
+                          <div class="form--input-row">
+                            <div class="input-field">
+                                <form>
+                                    <p class="input-field-titulo"><strong>Nome Completo</strong></p>
+                                    <input class="blocos-do-modal">
+                                </form>
+                            </div>
+                            <div class="input-field">
+                                <form>
+                                    <p class="input-field-titulo"><strong>Telefone</strong></p>
+                                    <input class="blocos-do-modal"  placeholder="  (00) 999999-9999">
+                                </form>
+                            </div>
+                          </div>
+                          
+                          <div class="form--input-row">
+                            <div class="input-field">
+                                <form>
+                                    <p class="input-field-titulo"><strong>E-mail</strong></p>
+                                    <input class="blocos-do-modal">
+                                </form>
+                            </div>
+                            <div class="input-field">
+                                <form>
+                                    <p class="input-field-titulo"><strong>Rede Social</strong></p>
+                                    <input class="blocos-do-modal" placeholder="https://instagram.com/">
+                                </form>
+                            </div>
+                          </div>
+                          
+                          <div class="form--input-column">
+                            <div class="input-field">
+                                <form class="formulario-checkin-modal">
+                                      
+                                    <input type="checkbox"><p>Li e concordo com os Termos & Condições.</p>
+
+                                    <div class="botao-enviar-modal">
+
+                                        <button class="botao-enviar2-modal">SOLICITAR MATERIAL</button>
+
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
                                     
                                 </div>
                                 <div class="card-image">
-                                    <img src="../imagens/servicos/foto3.svg" alt="" class="card-img" data-modal="modal1">
+                                    <img src="../imagens/servicos/foto3.svg"onclick="openModal()"class="card-img">
                                     <h2>SEO (Otimização para Motores de Busca)</h2>
+
+                                    <div class="action-modal-mask" id="modalImage">
+                                        <div class="action-modal">
+                                          <div class="action-modal--header">
+                                            <span class="material-symbols-outlined" onclick="closeModal()">
+                                              close
+                                            </span>
+                                          </div>
+                                          <div class="action-modal--content">
+                                          <div class="content--description">
+                                             <p id="content-text">
+                                                Nosso serviço de SEO (Otimização para Motores de Busca) é voltado para melhorar significativamente a visibilidade do seu site nos resultados de pesquisa, atraindo mais tráfego orgânico e qualificando leads. Com técnicas avançadas de SEO, como otimização de palavras-chave, melhorias técnicas e estratégias de link building, garantimos que seu site esteja sempre bem posicionado. Para descobrir como podemos impulsionar seu ranking nos motores de busca, inscreva-se no formulário e receba nosso material no e-mail cadastrado.
+                                            </p>
+                                          </div>
+                                          <div class="content--form">
+                                            <div class="form--input-row">
+                                              <div class="input-field">
+                                                <p class="input-field-titulo"><strong>Nome Completo</strong></p>
+                                                <label>Nome completo</label>
+                                                <input />
+                                              </div>
+                                              <div class="input-field">
+                                                <p class="input-field-titulo"><strong>Telefone</strong></p>
+                                                <label>Telefone</label>
+                                                <input />
+                                              </div>
+                                            </div>
+                                            
+                                            <div class="form--input-row">
+                                              <div class="input-field">
+                                                <p class="input-field-titulo"><strong>E-mail</strong></p>
+                                                <label>E-mail</label>
+                                                <input />
+                                              </div>
+                                              <div class="input-field">
+                                                <p class="input-field-titulo"><strong>Rede Social</strong></p>
+                                                <label>Rede Social</label>
+                                                <input />
+                                              </div>
+                                            </div>
+                                            
+                                            <div class="form--input-column">
+                                              <div class="input-field">
+                                                <input type="checkbox"/>
+                                                <p class="input-field-titulo"><strong>Li e concordo com os Termos & Condições.</strong></p>
+                                                <label>Li e concordo com os Termos & Condições.</label>
+                                              </div>
+                                              <div class="input-field">
+                                                <button>Solicitar Material</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      </div>
                                 </div>
                                 <div class="card-image">
-                                    <img src="../imagens/servicos/foto4.svg" alt="" class="card-img" data-modal="modal1">
+                                    <img src="../imagens/servicos/foto4.svg"onclick="openModal()"class="card-img">
                                     <h2>Marketing de Conteúdo</h2>
+
+                                    <div class="action-modal-mask" id="modalImage">
+                                        <div class="action-modal">
+                                          <div class="action-modal--header">
+                                            <span class="material-symbols-outlined" onclick="closeModal()">
+                                              close
+                                            </span>
+                                          </div>
+                                          <div class="action-modal--content">
+                                          <div class="content--description">
+                                             <p id="content-text">
+                                                Nosso serviço de Marketing de Conteúdo é projetado para criar e distribuir conteúdo relevante e valioso que atraia e engaje seu público-alvo, promovendo a sua marca e impulsionando conversões. Desenvolvemos estratégias de conteúdo personalizadas que incluem blogs, artigos, infográficos e muito mais, tudo alinhado aos interesses e necessidades do seu mercado. Para saber como podemos transformar sua estratégia de conteúdo, inscreva-se no formulário e receba nosso material exclusivo diretamente no e-mail cadastrado.
+                                            </p>
+                                          </div>
+                                          <div class="content--form">
+                                            <div class="form--input-row">
+                                              <div class="input-field">
+                                                <p class="input-field-titulo"><strong>Nome Completo</strong></p>
+                                                <label>Nome completo</label>
+                                                <input />
+                                              </div>
+                                              <p class="input-field-titulo"><strong>Telefone</strong></p>
+                                              <div class="input-field">
+                                                <label>Telefone</label>
+                                                <input />
+                                              </div>
+                                            </div>
+                                            
+                                            <div class="form--input-row">
+                                              <div class="input-field">
+                                                <p class="input-field-titulo"><strong>E-mail</strong></p>
+                                                <label>E-mail</label>
+                                                <input />
+                                              </div>
+                                              <div class="input-field">
+                                                <p class="input-field-titulo"><strong>Rede Social</strong></p>
+                                                <label>Rede Social</label>
+                                                <input />
+                                              </div>
+                                            </div>
+                                            
+                                            <div class="form--input-column">
+                                                <p class="input-field-titulo"><strong>Li e concordo com os Termos & Condições.</strong></p>
+                                              <div class="input-field">
+                                                <input type="checkbox"/>
+                                                <label>Li e concordo com os Termos & Condições.</label>
+                                              </div>
+                                              <div class="input-field">
+                                                <button>Solicitar Material</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      </div>
                                 </div>
                                 <div class="card-image">
-                                    <img src="../imagens/servicos/foto5.svg" alt="" class="card-img" data-modal="modal1">
+                                    <img src="../imagens/servicos/foto5.svg"onclick="openModal()"class="card-img">
                                     <h2>Publicidade Online (Google Ads, Facebook Ads)</h2>
+
+                                    <div class="action-modal-mask" id="modalImage">
+                                        <div class="action-modal">
+                                          <div class="action-modal--header">
+                                            <span class="material-symbols-outlined" onclick="closeModal()">
+                                              close
+                                            </span>
+                                          </div>
+                                          <div class="action-modal--content">
+                                          <div class="content--description">
+                                             <p id="content-text">O serviço de Publicidade Online na Digital Surge, especializado em Google Ads e Facebook Ads, é projetado para aumentar sua visibilidade e gerar leads qualificados de maneira eficaz. Com campanhas personalizadas que alcançam o público-alvo com precisão, otimizando continuamente para garantir o melhor retorno. Para descobrir como nossa expertise em publicidade online pode impulsionar seu negócio, inscreva-se no formulário e receba nosso material exclusivo diretamente no seu e-mail cadastrado.</p>
+                                          </div>
+                                          <div class="content--form">
+                                            <div class="form--input-row">
+                                              <div class="input-field">
+                                                <p class="input-field-titulo"><strong>Nome Completo</strong></p>
+                                                <label>Nome completo</label>
+                                                <input />
+                                              </div>
+                                              <div class="input-field">
+                                                <p class="input-field-titulo"><strong>Telefone</strong></p>
+                                                <label>Telefone</label>
+                                                <input />
+                                              </div>
+                                            </div>
+                                            
+                                            <div class="form--input-row">
+                                              <div class="input-field">
+                                                <p class="input-field-titulo"><strong>E-mail</strong></p>
+                                                <label>E-mail</label>
+                                                <input />
+                                              </div>
+                                              <div class="input-field">
+                                                <p class="input-field-titulo"><strong>Rede Social</strong></p>
+                                                <label>Rede Social</label>
+                                                <input />
+                                              </div>
+                                            </div>
+                                            
+                                            <div class="form--input-column">
+                                              <div class="input-field">
+                                                <input type="checkbox"/>
+                                                <p class="input-field-titulo"><strong>Li e concordo com os Termos & Condições.</strong></p>
+                                                <label>Li e concordo com os Termos & Condições.</label>
+                                              </div>
+                                              <div class="input-field">
+                                                <button>Solicitar Material</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      </div>
                                 </div>
                 
                             </div>
@@ -654,8 +895,8 @@
             
 
         </footer>
-
-        
+          
+        <script src="./js/modal.js"></script>
     
     </body>
 
