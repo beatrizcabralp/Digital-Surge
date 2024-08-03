@@ -50,11 +50,67 @@ a:hover
     color: #FF5733;
 }
 
+@media screen and (max-width: 1000px)
+{
+    header
+    {  
+        height: 70px;
+        padding: 0 10% 0 10%;
+       
+    }
+
+    nav 
+    {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: right;
+        width: 100%;
+    }
+    
+
+    .imagem-navbar
+    {
+       
+        width: 58px;
+        height: 20px;
+        padding-left: 0px;
+        left: 0px;
+       /* display: flex;
+        align-items: right;
+        justify-content: right;*/
+     
+     }
+
+     header ul
+     {
+       
+       gap: 10px;
+       display: flex;
+       list-style: none;
+       padding-right: 0px;
+       padding-left: 12%;
+       align-items: right;
+       justify-content: right;
+     }
+
+     
+     header a
+    {
+        font-size: 10px;
+        padding-right: 0;
+        /*display: flex;
+        align-items: center;*/
+                
+    }
+     
+}
+/*
 @media screen and (max-width: 508px)
 {
     header
     {
-
+        
         height: 70px;  
         margin-bottom: 5px;
       
@@ -83,16 +139,24 @@ a:hover
        padding-right: 10px;
           
     }
-}
+}*/
 
-
+/*
 @media screen and (500px <= width <= 614px)
 {
     header
     {
-        
         height: 80px;   
-    
+        padding: 0 10% 0 10%;
+    }
+
+    nav 
+    {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: right;
+        width: 100%;
     }
 
     .imagem-navbar
@@ -100,14 +164,16 @@ a:hover
       
       width: 87px;
       height: 35px;
-      padding-left: 40px;
-     
+      padding-left: 0px;
+      left: 0px;
      }
 
      header ul
      {
-       
-       padding-left: 140px;
+        gap: 10px;
+       padding-left: 0px;
+       display: flex;
+       list-style: none;
 
      }
 
@@ -115,13 +181,13 @@ a:hover
      header a
     {
        font-size: 14px;
-       padding-right: 10px;
+       padding-right: 0px;
           
     }
      
-}
+}*/
 
-
+/*
 @media screen and (615px <= width <= 1000px)
 {
    
@@ -138,6 +204,7 @@ a:hover
        display: flex;
        padding-left: 150px;
        padding-right: 50px;
+       gap: 10px;
        
      }
 
@@ -152,7 +219,7 @@ a:hover
 
 
 }
-
+*/
 
 
 

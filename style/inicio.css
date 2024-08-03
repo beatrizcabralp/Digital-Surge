@@ -1,17 +1,19 @@
 body
 {
-    
     width: 100%;
+    overflow-x: hidden;
 }
 
 main
 {
     padding-top: 20px;
+    
 }
 
 html
 {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 #inicio
@@ -177,12 +179,13 @@ main
    background-image: none;
    height: 330px;
    width: 100%;
+   margin-top: 100px;
    
 }
 
 .banner-elementos
 {
-    margin-top: 250px;
+    /*margin-top: 200px;*/
     flex-direction: column;
     justify-content: flex-start;
     height: 430px;
@@ -240,12 +243,13 @@ main
    background-image: none;
    height: 390px;
    width: 100%;
+   margin-top: 70px;
    
 }
 
 .banner-elementos
 {
-    margin-top: 200px;
+    /*margin-top: 200px;*/
     flex-direction: column;
     justify-content: flex-start;
     height: 430px;
