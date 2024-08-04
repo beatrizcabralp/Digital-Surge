@@ -50,7 +50,7 @@ a:hover
     color: #FF5733;
 }
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 499px)
 {
     header
     {  
@@ -104,6 +104,60 @@ a:hover
                 
     }
      
+}
+@media screen and (500px <= width <= 1024px)
+{
+    header
+    {  
+        height: 70px;
+        padding: 0 10% 0 10%;
+       
+    }
+
+    nav 
+    {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: right;
+        width: 100%;
+    }
+    
+
+    .imagem-navbar
+    {
+       
+        width: 58px;
+        height: 50px;
+        padding-left: 0px;
+        left: 0px;
+       /* display: flex;
+        align-items: right;
+        justify-content: right;*/
+     
+     }
+
+     header ul
+     {
+       
+       gap: 10px;
+       display: flex;
+       list-style: none;
+       padding-right: 0px;
+       padding-left: 12%;
+       align-items: right;
+       justify-content: right;
+     }
+
+     
+     header a
+    {
+        font-size: 14px;
+        padding-right: 0;
+        /*display: flex;
+        align-items: center;*/
+                
+    }
 }
 /*
 @media screen and (max-width: 508px)
