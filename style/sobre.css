@@ -45,6 +45,18 @@
 .sobreparagrafo2
 {
    padding-top: 50px;
+   padding-bottom: 70px;
+   font-family: "Lato", sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 24px;
+   text-align: left;
+   height: 48px;
+   padding-left: 70px;
+   margin-right: 50px; 
+}
+.sobreparagrafo3
+{
    padding-bottom: 50px;
    font-family: "Lato", sans-serif;
    font-size: 18px;
@@ -245,7 +257,7 @@
 
 .bloco-visao
 {
-    width: 1200px;
+    width: 1400px;
     height: 50px; 
     border-radius: 5px 0px 0px 0px;
     background: #F0EEEE;
@@ -310,7 +322,7 @@
 
 .bloco-valores
 {
-    width: 1200px;
+    width: 1400px;
     height: 50px;
     border-radius: 5px 0px 0px 0px;
     background: #F0EEEE;
@@ -362,12 +374,14 @@
        left: 0px;
        padding-left: 0px;
        min-height: 100px;
+       width: 80%;
        max-width: 80%;
        align-content: none;
        padding-bottom: 0px;
        padding: 0 10px;
        overflow: hidden;
        margin: 0 auto;
+       height: auto;
      /*  margin-bottom: 3%;*/
     }
     .sobre-texto h2
@@ -399,17 +413,34 @@
     }
     .sobreparagrafo2
     {
-       padding-top: 50px;
-        font-size: 20px;
+       padding-top: 0px;
+        font-size: 16px;
         line-height: 20px;
-        width: 312px;
-        padding-left: 40px;
-        padding-bottom: 280px;
+        padding-left: 50px;
+        padding-bottom: 50px;
         display: flex;
         width: 100%;
-        max-width:70%;
+        max-width:90%;
         align-items: center;
         flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+    .sobreparagrafo3
+    {
+       padding-top: 0px;
+        font-size: 16px;
+        line-height: 20px;
+        width: 312px;
+        padding-left: 50px;
+        padding-bottom: 0px;
+        display: flex;
+        width: 100%;
+        max-width:90%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
     }
     .equipe
     {
@@ -418,10 +449,12 @@
         width: 90%;
         align-items: center;
         justify-content: center;
-        height: 1050px;
+        height: 1120px;
         justify-content:flex-start;
-        margin-top: 0px;
-        overflow: hidden;
+        margin-top: 10px;
+        border: 1px solid pink;
+        overflow:hidden;
+        
     }
 
     .nossa-equipe
@@ -445,8 +478,11 @@
         margin-top: 0px;
         background-color: #FFFFFF;
         /*width: 30%;*/
-        max-width: none;
+        width: 102%;
+        max-width: 102%;
         align-content: none;
+        padding-top: 15px;
+       
         
     }
 
@@ -477,9 +513,7 @@
       height: 1px;
       max-width: 90%;
       display: flex;
-      justify-content: center;
-     
-      
+      justify-content: center;    
     }
 
     .texto-equipe
@@ -491,7 +525,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: auto;
       
     }
     .texto-equipe p
@@ -516,11 +549,13 @@
     {
         margin-top: 10px;
         padding-bottom: 20px;
-        align-items: center;
+        align-items: left;
         padding-left: 0px;
         border-right: 0px;
         width: 100%;
-        
+        justify-content: center;
+        box-sizing: border-box;
+        height: auto;
     }
     .bloco-equipe3
     {
@@ -530,93 +565,175 @@
         padding-left: 0px;
         border-right: 0px;
         width: 100%;
-        
+        justify-content: center;
     }
     .info-equipe
-{  
-    max-width: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10sspx;
-}
+    {  
+      max-width: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
 
-.info-equipe2
-{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    max-width: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items:flex-start
-}
-.info-equipe3
-{
-    max-width: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
-}
+    .info-equipe2
+    {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      max-width: 60%;
+      width: 100%;
+      justify-content: center;
+      align-items:flex-start;
+      overflow: hidden;
+      height: auto;
+    }
+    .info-equipe3
+    {
+      max-width: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0px;
+      overflow: hidden;
+    } 
 
+
+    .foto-equipe
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:25%;
+        overflow: hidden;
+        margin-left: -30px;
+    }
+
+     
     .nome-equipe
     {
         display: flex;
         max-width: 100%;
         width: 100%;
+       align-items: left;
+       padding-left: -30px;
+        overflow: hidden;
+        justify-content: flex-start;
+        height: auto;
+    }
+    .funcao-equipe
+    {
+        display: flex;
+        max-width: 100%;
+        width: 100%;
+       align-items: left;
+        margin-left: 0px;
+        overflow: hidden;
+        justify-content: flex-start;
+        height: auto;
+    }
+    .icone-equipe
+    {
+        display: flex;
+        max-width: 10%;
+        width: 10%;
+        align-items: center;
+        margin-left: 0px;
+        overflow: hidden;
+        justify-content: left;
+        height: auto;
         
-       
+        
     }
     .nossa-visao
     {
-        padding-top: 200px;
+        padding-top: 20px;
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: auto;
+        flex-direction: column;
        
     }
     .bloco-visao
     {
-        width: 312px;
-        height: 100px;
-        margin-left: 35px;
+        width: 90%;
+        max-width: 90%;
+        margin-left: 0px;
+        height: auto;
+        padding-bottom: 10px;
+        justify-content: left;
+        align-items: flex-start;
     }
     .visao-titulo
     {
-        padding-left: 35px;
+        width: 90%;
+        max-width: 90%;
+        margin-left: 0px;
+        height: auto;
+        padding-bottom: 10px;
+        justify-content: left;
+        align-items: flex-start;
+        padding-left: 10px;
+        font-size: 18px;
     }
     .texto-visao
     {
         width: 272px;
         height: 80px;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 16px;
         justify-content: center; 
     }
     .nossos-valores
     {
-        padding-top: 50px;
+        padding-top: 20px;
+        display: flex;
+        width: 90%;
+        max-width: 90%;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: auto;
+        flex-direction: column;
         margin-left: 0px;
-        padding-bottom: 300px;
+        padding-bottom: 40px;
     }
     .valores-titulo 
     {
-        margin-left: 35px;
+        width: 90%;
+        max-width: 90%;
+        margin-left: 0px;
+        height: auto;
+        padding-bottom: 10px;
+        justify-content: left;
+        align-items: flex-start;
+        padding-right: 20px;
+        font-size: 18px;
     }
     .bloco-valores
     {
-        width: 312px;
-        height: 100px;
-        margin-left: 35px;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0px;
+        height: auto;
+        padding-bottom: 10px;
+        justify-content: left;
+        align-items: flex-start;
         
     }
     .frases-valores
     {
     width: 272px;
     height: 80px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
     justify-content: center;
    
-   }
+    }
 
       
 }
@@ -642,14 +759,15 @@
        align-items: flex-start;
        left: 0px;
        padding-left: 0px;
-       border: 1px solid purple;
        min-height: 100px;
+       width: 80%;
        max-width: 80%;
        align-content: none;
        padding-bottom: 0px;
        padding: 0 10px;
        overflow: hidden;
        margin: 0 auto;
+       height: auto;
      /*  margin-bottom: 3%;*/
     }
     .sobre-texto h2
@@ -681,12 +799,34 @@
     }
     .sobreparagrafo2
     {
-       padding-top: 200px;
-        font-size: 20px;
+       padding-top: 0px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        width: 100%;
+        max-width:90%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+    .sobreparagrafo3
+    {
+       padding-top: 0px;
+        font-size: 16px;
         line-height: 20px;
         width: 312px;
-        padding-left: 40px;
-        
+        padding-left: 50px;
+        padding-bottom: 0px;
+        display: flex;
+        width: 100%;
+        max-width:90%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
     }
     .equipe
     {
@@ -695,23 +835,24 @@
         width: 90%;
         align-items: center;
         justify-content: center;
-        border: 5px solid pink;
-        height: 1200px;
+        height: 1120px;
         justify-content:flex-start;
-        margin-top: 100px;
-        overflow: hidden;
+        margin-top: 10px;
+        border: 1px solid pink;
+        overflow:hidden;
+        
     }
 
     .nossa-equipe
     {
        
        width: 100%;
-       height: 20px;
+       height: 0px;
+       max-width: 100%;
        font-size: 14px;
       padding-top: 0px;
-       left: 0px;
+       left: 15px;
        display: flex;
-       border: 1px solid red;
        position: none;
        overflow: hidden;
     }
@@ -723,9 +864,11 @@
         margin-top: 0px;
         background-color: #FFFFFF;
         /*width: 30%;*/
-        max-width: none;
-        border: 3px solid green;
+        width: 102%;
+        max-width: 102%;
         align-content: none;
+        padding-top: 15px;
+       
         
     }
 
@@ -740,7 +883,6 @@
         justify-content: center;
         box-sizing: border-box;
         height: auto;
-        border: 1px solid aquamarine;
     }
     .traco-laranja
     {
@@ -757,9 +899,7 @@
       height: 1px;
       max-width: 90%;
       display: flex;
-      justify-content: center;
-     
-      
+      justify-content: center;    
     }
 
     .texto-equipe
@@ -771,7 +911,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: auto;
       
     }
     .texto-equipe p
@@ -786,9 +925,8 @@
     justify-content: center;
     align-items: center;
     height: auto;
-    border: 1px solid red;
     margin: 0;
-    padding: 0;
+    padding: 0 12px 0 12px;
     flex-wrap: wrap
     
     }
@@ -797,11 +935,13 @@
     {
         margin-top: 10px;
         padding-bottom: 20px;
-        align-items: center;
+        align-items: left;
         padding-left: 0px;
         border-right: 0px;
         width: 100%;
-        
+        justify-content: center;
+        box-sizing: border-box;
+        height: auto;
     }
     .bloco-equipe3
     {
@@ -811,93 +951,176 @@
         padding-left: 0px;
         border-right: 0px;
         width: 100%;
-        
+        justify-content: center;
     }
     .info-equipe
-{  
-    max-width: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
-}
+    {  
+      max-width: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
 
-.info-equipe2
-{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    max-width: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items:flex-start
-}
-.info-equipe3
-{
-    max-width: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
-}
+    .info-equipe2
+    {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      max-width: 60%;
+      width: 100%;
+      justify-content: center;
+      align-items:flex-start;
+      overflow: hidden;
+      height: auto;
+    }
+    .info-equipe3
+    {
+      max-width: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0px;
+      overflow: hidden;
+    } 
 
+
+    .foto-equipe
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:25%;
+        overflow: hidden;
+        margin-left: -30px;
+    }
+
+     
     .nome-equipe
     {
         display: flex;
         max-width: 100%;
         width: 100%;
+       align-items: left;
+       padding-left: -30px;
+        overflow: hidden;
+        justify-content: flex-start;
+        height: auto;
+    }
+    .funcao-equipe
+    {
+        display: flex;
+        max-width: 100%;
+        width: 100%;
+       align-items: left;
+        margin-left: 0px;
+        overflow: hidden;
+        justify-content: flex-start;
+        height: auto;
+    }
+    .icone-equipe
+    {
+        display: flex;
+        max-width: 10%;
+        width: 10%;
+        align-items: center;
+        margin-left: 0px;
+        overflow: hidden;
+        justify-content: left;
+        height: auto;
         
-       
+        
     }
     .nossa-visao
     {
-        padding-top: 200px;
+        padding-top: 20px;
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: auto;
+        flex-direction: column;
        
     }
     .bloco-visao
     {
-        width: 312px;
-        height: 100px;
-        margin-left: 35px;
+        width: 90%;
+        max-width: 90%;
+        margin-left: 0px;
+        height: auto;
+        padding-bottom: 10px;
+        justify-content: left;
+        align-items: flex-start;
     }
     .visao-titulo
     {
-        padding-left: 35px;
+        width: 90%;
+        max-width: 90%;
+        margin-left: 0px;
+        height: auto;
+        padding-bottom: 10px;
+        justify-content: left;
+        align-items: flex-start;
+        padding-left: 10px;
+        font-size: 18px;
     }
     .texto-visao
     {
         width: 272px;
         height: 80px;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 16px;
         justify-content: center; 
     }
     .nossos-valores
     {
-        padding-top: 50px;
+        padding-top: 20px;
+        display: flex;
+        width: 90%;
+        max-width: 90%;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: auto;
+        flex-direction: column;
         margin-left: 0px;
-        padding-bottom: 300px;
+        padding-bottom: 40px;
     }
     .valores-titulo 
     {
-        margin-left: 35px;
+        width: 90%;
+        max-width: 90%;
+        margin-left: 0px;
+        height: auto;
+        padding-bottom: 10px;
+        justify-content: left;
+        align-items: flex-start;
+        padding-right: 20px;
+        font-size: 18px;
     }
     .bloco-valores
     {
-        width: 312px;
-        height: 100px;
-        margin-left: 35px;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0px;
+        height: auto;
+        padding-bottom: 10px;
+        justify-content: left;
+        align-items: flex-start;
         
     }
     .frases-valores
     {
     width: 272px;
     height: 80px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
     justify-content: center;
    
-   }
+    }
+
 
       
 }
