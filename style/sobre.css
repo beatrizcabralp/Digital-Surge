@@ -91,7 +91,7 @@
    display: flex;
    position: relative;
    padding-bottom: 50px;
-   left: -520px;
+   left: -600px;
   
 }
 
@@ -414,13 +414,13 @@
     .sobreparagrafo2
     {
        padding-top: 0px;
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 28px;
         padding-left: 50px;
         padding-bottom: 50px;
         display: flex;
-        width: 100%;
-        max-width:90%;
+        width: 80%;
+        max-width:80%;
         align-items: center;
         flex-direction: column;
         justify-content: center;
@@ -429,14 +429,13 @@
     .sobreparagrafo3
     {
        padding-top: 0px;
-        font-size: 16px;
-        line-height: 20px;
-        width: 312px;
+        font-size: 18px;
+        line-height: 26px;
+        width: 80%;
         padding-left: 50px;
         padding-bottom: 0px;
         display: flex;
-        width: 100%;
-        max-width:90%;
+        max-width:80%;
         align-items: center;
         flex-direction: column;
         justify-content: center;
@@ -445,7 +444,7 @@
     .equipe
     {
         flex-direction: column;
-        margin-bottom: 0px;
+        margin-bottom: -10px;
         width: 90%;
         align-items: center;
         justify-content: center;
@@ -648,14 +647,15 @@
     {
         padding-top: 20px;
         display: flex;
-        width: 100%;
+        width: 90%;
         max-width: 100%;
         justify-content: center;
         align-items: center;
         overflow: hidden;
         height: auto;
         flex-direction: column;
-       
+        margin-right: 10px;
+        margin-bottom: -40px;
     }
     .bloco-visao
     {
@@ -681,15 +681,15 @@
     }
     .texto-visao
     {
-        width: 272px;
-        height: 80px;
+        width: 90%;
+        height: auto;
         font-size: 14px;
         line-height: 16px;
         justify-content: center; 
     }
     .nossos-valores
     {
-        padding-top: 20px;
+        padding-top: 0px;
         display: flex;
         width: 90%;
         max-width: 90%;
@@ -703,7 +703,7 @@
     }
     .valores-titulo 
     {
-        width: 90%;
+        width: 85%;
         max-width: 90%;
         margin-left: 0px;
         height: auto;
@@ -715,19 +715,19 @@
     }
     .bloco-valores
     {
-        width: 100%;
+        width: 90%;
         max-width: 100%;
         margin-left: 0px;
         height: auto;
         padding-bottom: 10px;
         justify-content: left;
         align-items: flex-start;
-        
+        padding-left: 10px;
     }
     .frases-valores
     {
-    width: 272px;
-    height: 80px;
+    width: 100%;
+    height: auto;
     font-size: 14px;
     line-height: 16px;
     justify-content: center;
@@ -737,7 +737,7 @@
       
 }
 
-@media screen and (459px <= width <= 720px) 
+@media screen and (459px <= width <= 900px) 
 {
     #sobre
     {
@@ -798,9 +798,9 @@
     }
     .sobreparagrafo2
     {
-       padding-top: 0px;
+       padding-top: 5px;
         font-size: 18px;
-        line-height: 20px;
+        line-height: 28px;
         padding-left: 50px;
         padding-bottom: 50px;
         display: flex;
@@ -815,7 +815,7 @@
     {
        padding-top: 0px;
         font-size: 18px;
-        line-height: 20px;
+        line-height: 28px;
         width: 312px;
         padding-left: 50px;
         padding-bottom: 0px;
@@ -1049,6 +1049,7 @@
         overflow: hidden;
         height: auto;
         flex-direction: column;
+        margin-bottom: -40px;
        
     }
     .bloco-visao
@@ -1077,8 +1078,8 @@
     {
         width: 90%;
         height: auto;
-        font-size: 16px;
-        line-height: 18px;
+        font-size: 19px;
+        line-height: 19px;
         justify-content: center; 
     }
     .nossos-valores
@@ -1116,18 +1117,431 @@
         padding-bottom: 10px;
         justify-content: left;
         align-items: flex-start;
-        
+       
     }
     .frases-valores
     {
     width: 100%;
     height: auto;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 19px;
+    line-height: 19px;
     justify-content: center;
    
+    }
+    .traco-laranja2
+    {
+        padding-left: 5px;
     }
 
 
       
 }
+@media screen and (901px <= width <= 1199px)
+{
+    #sobre
+   {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    }
+
+.sobre-texto
+{  
+   left: 160px;
+}
+
+
+.sobre-texto h2
+{
+    color: #333333;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+    height: 52px;
+    padding-left: 70px; 
+    width: 100%;
+    max-width: 200px;
+    text-wrap: nowrap;
+    
+}
+
+.sobreparagrafo
+{
+   padding-top: 30px;
+   padding-bottom: 50px;
+   font-family: "Lato", sans-serif;
+   font-size: 22px;
+   font-weight: 500;
+   line-height: 24px;
+   text-align: left;
+   height: 48px;
+   padding-left: 70px;
+   margin-right: 50px; 
+}
+.sobreparagrafo2
+{
+   padding-top: 10px;
+   padding-bottom: 70px;
+   font-family: "Lato", sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 24px;
+   text-align: left;
+   height: 48px;
+   padding-left: 70px;
+   margin-right: 50px; 
+}
+.sobreparagrafo3
+{
+   padding-bottom: 50px;
+   font-family: "Lato", sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 24px;
+   text-align: left;
+   height: 48px;
+   padding-left: 70px;
+   margin-right: 50px; 
+}
+
+.equipe 
+{
+    display: flex;
+    width: 100%;
+    height: 510px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.nossa-equipe
+{
+   font-size: 24px;
+   line-height: 32px;
+   display: flex;
+   padding-bottom: 30px;
+   left: 30px;
+   width: 100%;
+   max-width: 100%;
+   justify-content: left;
+   align-items: left;
+   overflow: hidden;
+   height: auto;
+   text-wrap: nowrap;
+   margin-top: -20px;
+  
+}
+
+.blocos-equipe
+{
+    background-color: #FFFFFF ;
+    width: 98%;
+    max-width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.bloco-equipe1
+{
+   width: 100%;
+   height: 420px;  
+   display: flex;
+   justify-content: left;
+   align-items: left;
+   overflow: hidden;
+   flex-direction: column;
+   box-sizing: border-box;
+   border-right: 20px solid #FFFFFF; 
+ 
+}
+
+.traco-laranja
+{
+    width: 90%;
+    max-width: 100%;
+    margin-left: 0px;
+    overflow: hidden;
+    justify-content: flex-start;
+    
+}
+
+.info-equipe
+{  
+    margin-top: 0px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.info-equipe2
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100%;
+    max-width: 100%;
+    justify-content: left;
+    align-items: left;
+    overflow: hidden;
+    height: auto;
+}
+
+.nome-equipe
+{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  display: flex;
+  width: 90%;
+  max-width: 100%;
+  justify-content: left;
+  align-items: left;
+  overflow: hidden;
+  height: auto;
+}
+
+.funcao-equipe
+{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+    justify-content: left;
+    align-items: left;
+    overflow: hidden;
+    height: auto;
+    text-wrap: nowrap;
+
+}
+
+.icone-equipe
+{
+    width: 24px;
+    height: 24px;
+    top: 1056px;
+    left: 215px;
+    padding: 2.7px 3.23px 2.7px 3.23px; 
+}
+
+
+.info-equipe3
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    overflow: hidden;
+}
+
+.linha-equipe
+{
+    width: 340px;
+    height: 2px;
+    border-radius: 2px 0px 0px 0px; 
+    color: #F0EEEE;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 10px solid #F0EEEE;
+    width: 80%;
+    max-width: 80%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    overflow: hidden;
+
+}
+
+
+.texto-equipe
+{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: auto;
+}
+
+.texto-equipe p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: auto;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #666666;
+    max-width: 100%;
+    padding: 0px 20px 0px 20px;
+}
+ 
+
+.bloco-equipe2
+{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 420px;
+    border-right: 20px solid #FFFFFF;  
+    justify-content: left;
+   align-items: left;
+   overflow: hidden;
+   flex-direction: column;  
+}
+
+.bloco-equipe3
+{
+   background-color: #F2F2F2;
+   width: 100%;
+   height: 420px;   
+   justify-content: left;
+   align-items: left;
+   overflow: hidden;
+   flex-direction: column;
+}
+
+.nossa-visao
+{
+   height: 94px;
+   width: 100%;
+}
+
+.visao-titulo
+{  
+    height: 32px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 70px;
+    text-transform: uppercase;
+}
+
+.bloco-visao
+{
+    width: 1400px;
+    height: 50px; 
+    border-radius: 5px 0px 0px 0px;
+    background: #F0EEEE;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.traco-laranja2
+{
+    width: 20px;
+    height: 10px;
+    border-radius: 1px 0px 0px 0px;  
+    color: #333333;;
+    margin-top: 20px;
+    display: flex;
+    border-right: 4px solid #FF5733; 
+
+}
+
+.texto-visao
+{
+    width: 1111px;
+    height: 24px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+    margin-top: 12px;
+    margin-left: 10px;
+    height: 10px;
+    border-radius: 1px 0px 0px 0px; 
+    display: flex;   
+    
+}
+
+.nossos-valores 
+{
+    height: 342px;
+    margin-top: 60px;
+    margin-left: 70px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.valores-titulo
+{
+    width: 219px;
+    height: 32px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #333333;
+}
+
+.bloco-valores
+{
+    width: 1400px;
+    height: 50px;
+    border-radius: 5px 0px 0px 0px;
+    background: #F0EEEE;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+}
+
+.frases-valores
+{
+    width: 1111px;
+    height: 24px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+    margin-top: 12px;
+    margin-left: 10px;
+    height: 10px;
+    border-radius: 1px 0px 0px 0px;
+    display: flex;
+} 
+} 
