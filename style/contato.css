@@ -219,6 +219,16 @@
     display: none;
 }
 
+.telefone-responsivo
+{
+    display: none;
+}
+
+.email-responsivo
+{
+    display: none;
+}
+
 .formulario-nome
 {
     width: 315px;
@@ -229,6 +239,15 @@
 }
 
 .formulario-nome-responsivo
+{
+    display: none;
+}
+
+.formulario-telefone-responsivo
+{
+    display: none;
+}
+.formulario-email-responsivo
 {
     display: none;
 }
@@ -384,24 +403,35 @@
 {
     display: none;
 }
-@media screen and (max-width:508px)
+@media screen and (max-width:459px)
 {
     #contato
   {
    width: 100%;
-   height: 1055px;
+   height: 1355px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+   overflow: hidden;
+   flex-direction: column;
   }
 
-.texto-contato
+  .texto-contato
   {
-    display: block;
-    padding-left: 40px;
-   
+      display: flex;
+      width: 90%;
+      max-width: 90%;
+      justify-content: left;
+      align-items: center;
+      box-sizing: border-box;
+      overflow: hidden;
+      padding-left: 0px;
   }
 .titulo-contato
 {
     padding-top: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-size: 1.5rem;
     line-height: 32px;
     width: 85px;
@@ -411,31 +441,57 @@
 {
   display: flex;
   flex-direction: column;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 90%;
+  max-width: 90%;
+  justify-content: left;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid blue;
 }
 .mapa
 {
-    width: 312px;
-    height: 237px;
+    width: 100%;
+    height: auto;
     padding-bottom: 100px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.itens-mapa
+{
+    padding: 20px 25px 80px 25px;
 }
 .itens-mapa h2
 {
-    width: 109px;
-    height: 20px;
-    font-size: 14px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 20px;
     line-height: 20px;
     letter-spacing: 0.015em;
 
 }
 .entre-em-contato
 {
-    width: 272px;
-    height: 180px;
-    font-size: 16px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 23px;
 }
 .icone-localizacao
 {
@@ -459,24 +515,42 @@
 
 .formulario
 {
-    width: 312px;
-    height: 741px;
+    
     padding-bottom: 200px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-.preencher
+.preencher 
 {
-    width: 115px;
-    height: 16px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    justify-content: left;
+    align-items: lefts;
+    box-sizing: border-box;
+    overflow: hidden;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.015em;
     margin-bottom: 5px;
+    margin-left: -20px;
 }
 .formulario-bloco-principal
 {
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 0px;
 }
 .formulario-bloco-principal h3
 {
@@ -486,9 +560,22 @@
 .formulario-bloco1
 {
     display: flex;
+    border: 1px solid red;
     flex-direction: column;
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    align-items: left;
+    justify-content:flex-start;
+    height: 100px;
+    width: 100%;
 }
+.formulario-bloco2
+{
+   display: none;
+}
+
 
 .nome, .sobrenome
 {
@@ -509,22 +596,29 @@
 {
     font-size: 12px;
     margin-top: -140px;
+    display: none;
 }
 .formulario-email
 {
     width: 250px;
     height: 24px;
     padding-bottom: 10px;
+    display: none;
 }
 .telefone 
 {
-    margin-top: -130px;
+    margin-top: -530px;
     font-size: 12px;
+    border: 1px solid green;
+    display: none;
+    
 }
 .formulario-telefone
 {
     width: 250px;
     height: 34px;
+    border: 1px solid pink;
+    display: none;
 }
 .nome-responsivo
 {
@@ -533,13 +627,53 @@
 }
 .formulario-nome-responsivo
 {
-    display: block;
-    width: 250px;
-    height: 24px;
-    padding-bottom: 10px;
+    height: auto;
     border-radius: 5px;
     border: 1px solid #F7F7F7;
     padding-left: 7px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+}
+
+.telefone-responsivo
+{
+    display: block;
+    font-size: 12px;
+}
+.formulario-telefone-responsivo
+{
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #F7F7F7;
+    padding-left: 7px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+}
+.email-responsivo
+{
+    display: block;
+    font-size: 12px;
+}
+.formulario-email-responsivo
+{
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #F7F7F7;
+    padding-left: 7px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
 }
 .bloco-mensagem
 {
