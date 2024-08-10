@@ -368,6 +368,15 @@
    margin-left: 5px;
 }
 
+.paragrafo-responsivo
+{
+    display: none;
+}
+.paragrafo2-responsivo
+{
+    display: none;
+}
+
 .botao-enviar
 {
     width: 296px;
@@ -391,6 +400,10 @@
    margin-top: 30px;
    cursor: pointer;
 }
+.formulario-bloco-principal-responsivo
+{
+    display: none;
+}
 .titulo-responsivo
 {
     display: none;
@@ -411,12 +424,13 @@
 {
     display: none;
 }
+
 @media screen and (max-width:459px)
 {
     #contato
   {
    width: 100%;
-   height: 1355px;
+   height: 1700px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -461,18 +475,25 @@
 }
 .mapa
 {
-    width: 100%;
+    width: auto;
     height: auto;
+    display: flex;
     padding-bottom: 100px;
-    max-width: 100%;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
     overflow: hidden;
 }
 .itens-mapa
 {
-    padding: 20px 25px 80px 25px;
+    padding: 125px 13px 20px 13px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    overflow: hidden;
+    
 }
 .itens-mapa h2
 {
@@ -486,20 +507,22 @@
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 0.015em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
 
 }
 .entre-em-contato
 {
     width: 100%;
     height: auto;
-    max-width: 100%;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+    align-items: flex-start;
     overflow: hidden;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
-    line-height: 23px;
+    line-height: 32px;
+    text-wrap: wrap;
 }
 .icone-localizacao
 {
@@ -532,7 +555,6 @@
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
-    border: 1px solid green;
 }
 .preencher 
 {
@@ -543,7 +565,7 @@
     align-items: lefts;
     box-sizing: border-box;
     overflow: hidden;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.015em;
     margin-bottom: 5px;
@@ -560,7 +582,6 @@
     align-items: center;
     box-sizing: border-box;
     margin-bottom: 0px;
-    border: 1px solid blue;
 }
 .formulario-bloco-principal h3
 {
@@ -627,13 +648,12 @@
 {
     width: 250px;
     height: 34px;
-    border: 1px solid pink;
     display: none;
 }
 .nome-responsivo
 {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
 }
 .formulario-nome-responsivo
 {
@@ -652,7 +672,7 @@
 .telefone-responsivo
 {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 20px;
 }
 .formulario-telefone-responsivo
@@ -667,11 +687,12 @@
     align-items: center;
     justify-content: center;
     width: 97%;
+    padding-top: 10px;
 }
 .email-responsivo
 {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 20px;
 }
 .formulario-email-responsivo
@@ -690,14 +711,13 @@
 .mensagem-responsiva
 {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 0px;
 }
 .formulario-mensagem-responsiva
 {
     height: auto;
     border-radius: 5px;
-    border: 1px solid #F7F7F7;
     padding-left: 7px;
     display: flex;
     flex-direction: column;
@@ -714,97 +734,2662 @@
 }
 .mensagem
 {
-    margin-top: -180px;
+    margin-top: 0px;
     font-size: 12px;
+    display: none;
 }
 .formulario-mensagem
 {
     width: 250px;
     height: 162px;
+    display: none;
 
+}
+
+.formulario-checkin
+{
+    width: 100%;
+    height: auto;
+    top: 0px;
+    text-wrap: nowrap;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex: 2;
 }
 .formulario-checkin input
 {
-    width: 223px;
-    height: 16px;
-    margin-left: -100px;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    flex: 1;
 }
 
-.formulario-checkin p
+.paragrafo-responsivo
 {
-    font-family: Poppins;
     font-size: 11px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0.015em;
+    line-height: 11px;
     text-align: left;
-    display: inline;
-    margin-left: -100px;
+    display: flex;
+    margin-left: 0px;
+    justify-content: flex-start;
+    align-items:flex-start;
+    overflow: hidden;
+    flex-direction: row;
+    width: 89%;
+    min-width: 89%;
+    flex: 1;
+    text-wrap: wrap;
+   
 }
 .botao-enviar
 {
-    width: 148px;
-    height: 30px;
-    margin-top: -10px;
-}
-.botao-enviar2 p
-{
-    margin-left: -5px;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
     display: flex;
-    font-size: 14px;
-    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    margin-top: -20px;
 }
+.botao-enviar2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+}
+.paragrafo2-responsivo
+{
+    margin-left: 0px;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    text-wrap: wrap;
+    text-align: center;
+}
+
 .titulo-responsivo
 {
     display: flex;
-    margin-top: 90px;
-    width: 146px;
-    height: 16px;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
     font-family: Lato;
     font-size: 14px;
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0.015em;
     text-align: left;
-    color: #333333;
     margin-bottom: -10px;
-    margin-left: 2px;
+    margin-left: 0px;
+    justify-content: left;
+    align-items: center;
 }
 .localizacao-responsiva
 {
     display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: auto;
 }
 .icone-localizacao-responsiva
 {
    display: flex;
    margin-left: 0px;
-   width: 16px;
-   height: 16px;
+   justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: auto;
 }
 .endereco-responsivo
 {
     display: flex;
     width: 244px;
     height: 14px;
-    font-family: Poppins;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 10px;
+    font-size: 12px;
+    line-height: 12px;
     letter-spacing: 0.015em;
     text-align: left;
-    color: #333333;
     margin-left: 2px;
     margin-top: 3px;
-    text-wrap: nowrap;
+    text-wrap: wrap;
+    margin-bottom: 5px;
     
+}
+
+.formulario-bloco-principal-responsivo
+{
+    display: flex;
+    flex-direction: column;
+    width: 110%;
+    height: 250px;
+    max-width: 110%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    border: 1px solid red;
+    margin-top: 20px;
 }
 .icone-mapa-responsivo
 {
    display: flex;
-   width: 288px;
-   height: 170px;
-   margin-top: 10px;
-   margin-left: -14px;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   width: 100%;
+   margin-top: 0px;
+   margin-left: 0px;
+   border: 1px solid red;
 }
 
+}
+
+@media screen and (459px <= width <= 600px)
+{
+    #contato
+    {
+     width: 100%;
+     height: 1700px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     overflow: hidden;
+     flex-direction: column;
+    }
+  
+    .texto-contato
+    {
+        display: flex;
+        width: 90%;
+        max-width: 90%;
+        justify-content: left;
+        align-items: center;
+        box-sizing: border-box;
+        overflow: hidden;
+        padding-left: 0px;
+    }
+  .titulo-contato
+  {
+      padding-top: 40px;
+      margin-bottom: 30px;
+      font-size: 1.9rem;
+      line-height: 32px;
+      width: 85px;
+      height: 32px; 
+  }
+  .contato-itens
+  {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+    max-width: 90%;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+  }
+  .mapa
+  {
+      width: 100%;
+      height: auto;
+      padding-bottom: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      overflow: hidden;
+  }
+  .itens-mapa
+  {
+      padding: 100px 20px 0px 20px;
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: left;
+      flex-direction: column;
+      overflow: hidden;
+  }
+  .itens-mapa h2
+  {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      overflow: hidden;
+      font-size: 20px;
+      line-height: 20px;
+      letter-spacing: 0.015em;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+  
+  }
+  .entre-em-contato
+  {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      align-items: flex-start;
+      overflow: hidden;
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 35px;
+      flex-wrap: wrap;
+  }
+  .icone-localizacao
+  {
+      display: none;
+  }
+  .endereco
+  {
+      display: none;
+  }
+  .icone-mapa 
+  {
+      width: 0px;
+      height: 0px;
+      border-radius: 0px;
+  }
+  
+  .itens-mapa h3
+  {
+      display: none;
+  }
+  
+  .formulario
+  {
+      
+      padding-bottom: 200px;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      overflow: hidden;
+  }
+  .preencher 
+  {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: left;
+      align-items: left;
+      box-sizing: border-box;
+      overflow: hidden;
+      font-size: 20px;
+      line-height: 20px;
+      margin-bottom: 5px;
+      margin-left: -20px;
+  }
+  .formulario-bloco-principal
+  {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      margin-bottom: 0px;
+  }
+  .formulario-bloco-principal h3
+  {
+    height: 16px;
+    padding-bottom: 15px;
+  }
+  .formulario-bloco1
+  {
+      display: flex;
+     
+      flex-direction: column;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 50px;
+      align-items: left;
+      justify-content:flex-start;
+      height: 200px;
+      width: 100%;
+  }
+  .formulario-bloco2
+  {
+     display: none;
+  }
+  
+  
+  .nome, .sobrenome
+  {
+      display: none;
+  }
+  .formulario-nome
+  {
+      width: 250px;
+      height: 24px;
+      padding-bottom: 10px;
+      display: none;
+  }
+  .formulario-sobrenome
+  {
+      display: none;
+  }
+  .email
+  {
+      font-size: 12px;
+      margin-top: -140px;
+      display: none;
+  }
+  .formulario-email
+  {
+      width: 250px;
+      height: 24px;
+      padding-bottom: 10px;
+      display: none;
+  }
+  .telefone 
+  {
+      margin-top: -530px;
+      font-size: 12px;
+      border: 1px solid green;
+      display: none;
+      
+  }
+  .formulario-telefone
+  {
+      width: 250px;
+      height: 34px;
+      display: none;
+  }
+  .nome-responsivo
+  {
+      display: block;
+      font-size: 16px;
+  }
+  .formulario-nome-responsivo
+  {
+      height: auto;
+      border-radius: 5px;
+      border: 1px solid #F7F7F7;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+  }
+  
+  .telefone-responsivo
+  {
+      display: block;
+      font-size: 16px;
+      margin-top: 20px;
+  }
+  .formulario-telefone-responsivo
+  {
+      height: auto;
+      border-radius: 5px;
+      border: 1px solid #F7F7F7;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+      padding-top: 10px;
+  }
+  .email-responsivo
+  {
+      display: block;
+      font-size: 16px;
+      margin-top: 20px;
+  }
+  .formulario-email-responsivo
+  {
+      height: auto;
+      border-radius: 5px;
+      border: 1px solid #F7F7F7;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+  }
+  .mensagem-responsiva
+  {
+      display: block;
+      font-size: 16px;
+      margin-top: 0px;
+  }
+  .formulario-mensagem-responsiva
+  {
+      height: auto;
+      border-radius: 5px;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 200px;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+      
+  }
+  .bloco-mensagem
+  {
+      margin-bottom: -100px;
+      display: none;
+  }
+  .mensagem
+  {
+      margin-top: 0px;
+      font-size: 12px;
+      display: none;
+  }
+  .formulario-mensagem
+  {
+      width: 250px;
+      height: 162px;
+      display: none;
+  
+  }
+  
+  .formulario-checkin
+  {
+      width: 100%;
+      height: auto;
+      top: 0px;
+      text-wrap: nowrap;
+      margin-top: 0px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      box-sizing: border-box;
+      flex-wrap: wrap;
+      flex: 2;
+  }
+  .formulario-checkin input
+  {
+      width: 100%;
+      height: auto;
+      margin-left: 0px;
+      display: flex;
+      justify-content:left;
+      align-items: left;
+      flex-direction: row;
+      flex-wrap:nowrap;
+      flex: 1;
+  }
+  
+  .paragrafo-responsivo
+  {
+      font-size: 14px;
+      line-height: 14px;
+      text-align: left;
+      display: flex;
+      margin-left: 0px;
+      justify-content: flex-start;
+      align-items:flex-start;
+      overflow: hidden;
+      flex-direction: row;
+      width: 89%;
+      min-width: 89%;
+      flex: 1;
+      text-wrap: wrap;
+     
+  }
+  .botao-enviar
+  {
+      width: 100%;
+      height: auto;
+      margin-top: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 0px;
+      flex-wrap: wrap;
+      margin-top: -20px;
+  }
+  .botao-enviar2
+  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      width: 50%;
+  }
+  .paragrafo2-responsivo
+  {
+      margin-left: 0px;
+      display: flex;
+      font-size: 12px;
+      line-height: 12px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      overflow: hidden;
+      text-wrap: wrap;
+      text-align: center;
+  }
+  
+  .titulo-responsivo
+  {
+      display: flex;
+      margin-top: 10px;
+      width: 100%;
+      height: auto;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0.015em;
+      text-align: left;
+      margin-bottom: -10px;
+      margin-left: 0px;
+      justify-content: left;
+      align-items: center;
+  }
+  .localizacao-responsiva
+  {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      width: 100%;
+      height: auto;
+  }
+  .icone-localizacao-responsiva
+  {
+     display: flex;
+     margin-left: 0px;
+     justify-content: center;
+      align-items: center;
+      width: 5%;
+      height: auto;
+  }
+  .endereco-responsivo
+  {
+      display: flex;
+      width: 244px;
+      height: 14px;
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: 0.015em;
+      text-align: left;
+      margin-left: 2px;
+      margin-top: 3px;
+      text-wrap: wrap;
+      margin-bottom: 5px;
+      
+  }
+  
+  .formulario-bloco-principal-responsivo
+  {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 380px;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      margin-bottom: 0px;
+      margin-top: 20px;
+  }
+  .icone-mapa-responsivo
+  {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     width: 100%;
+     margin-top: 0px;
+     margin-left: 0px;
+  }
+}
+
+@media screen and (601px <= width <= 750px)
+{
+    #contato
+    {
+     width: 100%;
+     height: 1750px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     overflow: hidden;
+     flex-direction: column;
+    }
+  
+    .texto-contato
+    {
+        display: flex;
+        width: 90%;
+        max-width: 90%;
+        justify-content: left;
+        align-items: center;
+        box-sizing: border-box;
+        overflow: hidden;
+        padding-left: 0px;
+    }
+  .titulo-contato
+  {
+      padding-top: 40px;
+      margin-bottom: 30px;
+      font-size: 1.9rem;
+      line-height: 32px;
+      width: 85px;
+      height: 32px; 
+  }
+  .contato-itens
+  {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+    max-width: 90%;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+  }
+  .mapa
+  {
+      width: auto;
+      height: auto;
+      padding-bottom: 100px;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      display: flex;
+  }
+  .itens-mapa
+  {
+      padding: 100px 20px 0px 20px;
+      height: auto;
+      display: flex;
+      width: 100%;
+      overflow: hidden;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .itens-mapa h2
+  {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      overflow: hidden;
+      font-size: 22px;
+      line-height: 22px;
+      letter-spacing: 0.015em;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+  
+  }
+  .entre-em-contato
+  {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      box-sizing: border-box;
+      overflow: hidden;
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 36px;
+      flex-wrap: wrap;
+      text-wrap: wrap;
+  }
+  .icone-localizacao
+  {
+      display: none;
+  }
+  .endereco
+  {
+      display: none;
+  }
+  .icone-mapa 
+  {
+      width: 0px;
+      height: 0px;
+      border-radius: 0px;
+  }
+  
+  .itens-mapa h3
+  {
+      display: none;
+  }
+  
+  .formulario
+  {
+      
+      padding-bottom: 200px;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      overflow: hidden;
+  }
+  .preencher 
+  {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: left;
+      align-items: left;
+      box-sizing: border-box;
+      overflow: hidden;
+      font-size: 50px;
+      line-height: 25px;
+      margin-bottom: 5px;
+      margin-left: -20px;
+  }
+
+  .preencher h4
+  {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  
+  .formulario-bloco-principal
+  {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      margin-bottom: 0px;
+  }
+  .formulario-bloco-principal h3
+  {
+    height: 16px;
+    padding-bottom: 15px;
+  }
+  .formulario-bloco1
+  {
+      display: flex;
+     
+      flex-direction: column;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 50px;
+      align-items: left;
+      justify-content:flex-start;
+      height: 200px;
+      width: 100%;
+  }
+  .formulario-bloco2
+  {
+     display: none;
+  }
+  
+  
+  .nome, .sobrenome
+  {
+      display: none;
+  }
+  .formulario-nome
+  {
+      width: 250px;
+      height: 24px;
+      padding-bottom: 10px;
+      display: none;
+  }
+  .formulario-sobrenome
+  {
+      display: none;
+  }
+  .email
+  {
+      font-size: 12px;
+      margin-top: -140px;
+      display: none;
+  }
+  .formulario-email
+  {
+      width: 250px;
+      height: 24px;
+      padding-bottom: 10px;
+      display: none;
+  }
+  .telefone 
+  {
+      margin-top: -530px;
+      font-size: 12px;
+      border: 1px solid green;
+      display: none;
+      
+  }
+  .formulario-telefone
+  {
+      width: 250px;
+      height: 34px;
+      display: none;
+  }
+  .nome-responsivo
+  {
+      display: block;
+      font-size: 18px;
+  }
+  .formulario-nome-responsivo
+  {
+      height: auto;
+      border-radius: 5px;
+      border: 1px solid #F7F7F7;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+  }
+  
+  .telefone-responsivo
+  {
+      display: block;
+      font-size: 18px;
+      margin-top: 20px;
+  }
+  .formulario-telefone-responsivo
+  {
+      height: auto;
+      border-radius: 5px;
+      border: 1px solid #F7F7F7;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+      padding-top: 10px;
+  }
+  .email-responsivo
+  {
+      display: block;
+      font-size: 18px;
+      margin-top: 20px;
+  }
+  .formulario-email-responsivo
+  {
+      height: auto;
+      border-radius: 5px;
+      border: 1px solid #F7F7F7;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+  }
+  .mensagem-responsiva
+  {
+      display: block;
+      font-size: 18px;
+      margin-top: 0px;
+  }
+  .formulario-mensagem-responsiva
+  {
+      height: auto;
+      border-radius: 5px;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 200px;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+      
+  }
+  .bloco-mensagem
+  {
+      margin-bottom: -100px;
+      display: none;
+  }
+  .mensagem
+  {
+      margin-top: 0px;
+      font-size: 18px;
+      display: none;
+  }
+  .formulario-mensagem
+  {
+      width: 250px;
+      height: 162px;
+      display: none;
+  
+  }
+  
+  .formulario-checkin
+  {
+      width: 100%;
+      height: auto;
+      top: 0px;
+      text-wrap: nowrap;
+      margin-top: 0px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      box-sizing: border-box;
+      flex-wrap: wrap;
+      flex: 2;
+  }
+  .formulario-checkin input
+  {
+      width: 100%;
+      height: auto;
+      margin-left: 0px;
+      display: flex;
+      justify-content:left;
+      align-items: left;
+      flex-direction: row;
+      flex-wrap:nowrap;
+      flex: 1;
+  }
+  
+  .paragrafo-responsivo
+  {
+      font-size: 16px;
+      line-height: 16px;
+      text-align: left;
+      display: flex;
+      margin-left: 0px;
+      justify-content: flex-start;
+      align-items:flex-start;
+      overflow: hidden;
+      flex-direction: row;
+      width: 89%;
+      min-width: 89%;
+      flex: 1;
+      text-wrap: wrap;
+      margin-bottom: 15px;
+     
+  }
+  .botao-enviar
+  {
+      width: 100%;
+      height: auto;
+      margin-top: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 0px;
+      flex-wrap: wrap;
+      margin-top: -20px;
+      margin-bottom: 15px;
+  }
+  .botao-enviar2
+  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      width: 50%;
+  }
+  .paragrafo2-responsivo
+  {
+      margin-left: 0px;
+      display: flex;
+      font-size: 14px;
+      line-height: 14px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      overflow: hidden;
+      text-wrap: wrap;
+      text-align: center;
+  }
+  
+  .titulo-responsivo
+  {
+      display: flex;
+      margin-top: 10px;
+      width: 100%;
+      height: auto;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0.015em;
+      text-align: left;
+      margin-bottom: 10px;
+      margin-left: 0px;
+      justify-content: left;
+      align-items: center;
+  }
+  .localizacao-responsiva
+  {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      width: 100%;
+      height: auto;
+  }
+  .icone-localizacao-responsiva
+  {
+     display: flex;
+     margin-left: 0px;
+     justify-content: center;
+      align-items: center;
+      width: 5%;
+      height: auto;
+  }
+  .endereco-responsivo
+  {
+      display: flex;
+      width: 244px;
+      height: 14px;
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 0.015em;
+      text-align: left;
+      margin-left: 2px;
+      margin-top: 3px;
+      text-wrap: wrap;
+      margin-bottom: 5px;
+      
+  }
+  
+  .formulario-bloco-principal-responsivo
+  {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 380px;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      margin-bottom: 0px;
+      margin-top: 20px;
+  }
+  .icone-mapa-responsivo
+  {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     width: 100%;
+     margin-top: 0px;
+     margin-left: 0px;
+  }
+}
+
+@media screen and (750px <= width <= 900px)
+{
+    #contato
+    {
+     width: 100%;
+     height: 1800px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     overflow: hidden;
+     flex-direction: column;
+    }
+  
+    .texto-contato
+    {
+        display: flex;
+        width: 90%;
+        max-width: 90%;
+        justify-content: left;
+        align-items: center;
+        box-sizing: border-box;
+        overflow: hidden;
+        padding-left: 0px;
+    }
+  .titulo-contato
+  {
+      padding-top: 40px;
+      margin-bottom: 30px;
+      font-size: 1.9rem;
+      line-height: 32px;
+      width: 85px;
+      height: 32px; 
+  }
+  .contato-itens
+  {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+    max-width: 90%;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+  }
+  .mapa
+  {
+      width: auto;
+      height: auto;
+      padding-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+  }
+  .itens-mapa
+  {
+      padding: 100px 20px 60px 20px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: left;
+      flex-direction: column;
+      width: 100%;
+      overflow: hidden;
+  }
+  .itens-mapa h2
+  {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      overflow: hidden;
+      font-size: 24px;
+      line-height: 24px;
+      letter-spacing: 0.015em;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+  
+  }
+  .entre-em-contato
+  {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      align-items: flex-start;
+      overflow: hidden;
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 40px;
+  }
+  .icone-localizacao
+  {
+      display: none;
+  }
+  .endereco
+  {
+      display: none;
+  }
+  .icone-mapa 
+  {
+      width: 0px;
+      height: 0px;
+      border-radius: 0px;
+  }
+  
+  .itens-mapa h3
+  {
+      display: none;
+  }
+  
+  .formulario
+  {
+      
+      padding-bottom: 200px;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      overflow: hidden;
+  }
+  .preencher 
+  {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: left;
+      align-items: left;
+      box-sizing: border-box;
+      overflow: hidden;
+      font-size: 50px;
+      line-height: 25px;
+      margin-bottom: 5px;
+      margin-left: -20px;
+  }
+
+  .preencher h4
+  {
+    font-size: 26px;
+    line-height: 26px;
+  }
+
+  
+  .formulario-bloco-principal
+  {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      margin-bottom: 0px;
+  }
+  .formulario-bloco-principal h3
+  {
+    height: 16px;
+    padding-bottom: 15px;
+  }
+  .formulario-bloco1
+  {
+      display: flex;
+     
+      flex-direction: column;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 50px;
+      align-items: left;
+      justify-content:flex-start;
+      height: 200px;
+      width: 100%;
+  }
+  .formulario-bloco2
+  {
+     display: none;
+  }
+  
+  
+  .nome, .sobrenome
+  {
+      display: none;
+  }
+  .formulario-nome
+  {
+      width: 250px;
+      height: 24px;
+      padding-bottom: 10px;
+      display: none;
+  }
+  .formulario-sobrenome
+  {
+      display: none;
+  }
+  .email
+  {
+      font-size: 12px;
+      margin-top: -140px;
+      display: none;
+  }
+  .formulario-email
+  {
+      width: 250px;
+      height: 24px;
+      padding-bottom: 10px;
+      display: none;
+  }
+  .telefone 
+  {
+      margin-top: -530px;
+      font-size: 12px;
+      border: 1px solid green;
+      display: none;
+      
+  }
+  .formulario-telefone
+  {
+      width: 250px;
+      height: 34px;
+      display: none;
+  }
+  .nome-responsivo
+  {
+      display: block;
+      font-size: 20px;
+  }
+  .formulario-nome-responsivo
+  {
+      height: auto;
+      border-radius: 5px;
+      border: 1px solid #F7F7F7;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+  }
+  
+  .telefone-responsivo
+  {
+      display: block;
+      font-size: 20px;
+      margin-top: 20px;
+  }
+  .formulario-telefone-responsivo
+  {
+      height: auto;
+      border-radius: 5px;
+      border: 1px solid #F7F7F7;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+      padding-top: 10px;
+  }
+  .email-responsivo
+  {
+      display: block;
+      font-size: 20px;
+      margin-top: 20px;
+  }
+  .formulario-email-responsivo
+  {
+      height: auto;
+      border-radius: 5px;
+      border: 1px solid #F7F7F7;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+  }
+  .mensagem-responsiva
+  {
+      display: block;
+      font-size: 20px;
+      margin-top: 0px;
+  }
+  .formulario-mensagem-responsiva
+  {
+      height: auto;
+      border-radius: 5px;
+      padding-left: 7px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 200px;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+      
+  }
+  .bloco-mensagem
+  {
+      margin-bottom: -100px;
+      display: none;
+  }
+  .mensagem
+  {
+      margin-top: 0px;
+      font-size: 20px;
+      display: none;
+  }
+  .formulario-mensagem
+  {
+      width: 250px;
+      height: 162px;
+      display: none;
+  
+  }
+  
+  .formulario-checkin
+  {
+      width: 100%;
+      height: auto;
+      top: 0px;
+      text-wrap: nowrap;
+      margin-top: 0px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      box-sizing: border-box;
+      flex-wrap: wrap;
+      flex: 2;
+  }
+  .formulario-checkin input
+  {
+      width: 100%;
+      height: auto;
+      margin-left: 0px;
+      display: flex;
+      justify-content:left;
+      align-items: left;
+      flex-direction: row;
+      flex-wrap:nowrap;
+      flex: 1;
+  }
+  
+  .paragrafo-responsivo
+  {
+      font-size: 20px;
+      line-height: 20px;
+      text-align: left;
+      display: flex;
+      margin-left: 0px;
+      justify-content: flex-start;
+      align-items:flex-start;
+      overflow: hidden;
+      flex-direction: row;
+      width: 89%;
+      min-width: 89%;
+      flex: 1;
+      text-wrap: wrap;
+      margin-bottom: 15px;
+     
+  }
+  .botao-enviar
+  {
+      width: 100%;
+      height: auto;
+      margin-top: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 0px;
+      flex-wrap: wrap;
+      margin-top: -20px;
+      margin-bottom: 15px;
+  }
+  .botao-enviar2
+  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      width: 50%;
+  }
+  .paragrafo2-responsivo
+  {
+      margin-left: 0px;
+      display: flex;
+      font-size: 16px;
+      line-height: 16px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      overflow: hidden;
+      text-wrap: wrap;
+      text-align: center;
+  }
+  
+  .titulo-responsivo
+  {
+      display: flex;
+      margin-top: 10px;
+      width: 100%;
+      height: auto;
+      font-family: Lato;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 0.015em;
+      text-align: left;
+      margin-bottom: 10px;
+      margin-left: 0px;
+      justify-content: left;
+      align-items: center;
+  }
+  .localizacao-responsiva
+  {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      width: 100%;
+      height: auto;
+  }
+  .icone-localizacao-responsiva
+  {
+     display: flex;
+     margin-left: 0px;
+     justify-content: center;
+      align-items: center;
+      width: 5%;
+      height: auto;
+  }
+  .endereco-responsivo
+  {
+      display: flex;
+      width: 244px;
+      height: 16px;
+      font-size: 18px;
+      line-height: 16px;
+      letter-spacing: 0.015em;
+      text-align: left;
+      margin-left: 2px;
+      margin-top: 3px;
+      text-wrap: wrap;
+      margin-bottom: 5px;
+      
+  }
+  
+  .formulario-bloco-principal-responsivo
+  {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 420px;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      margin-bottom: 0px;
+      margin-top: 20px;
+  }
+  .icone-mapa-responsivo
+  {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     width: 100%;
+     margin-top: 0px;
+     margin-left: 0px;
+  }
+}
+
+@media screen and (901px <= width <= 1340px)
+{
+    #contato
+{
+   width: 100%;
+   height: 1181px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   overflow: hidden;
+   position: relative;
+}
+
+.texto-contato
+{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   padding-left: 155px;
+   width: 100%;
+   height: auto;
+
+   
+}
+.titulo-contato
+{
+    padding-top: 0px;
+    margin-bottom: 20px;
+   width: 202px;
+   height: 52px;
+   font-size: 48px;
+   line-height: 52px;
+   text-align: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.contato-itens
+{
+  display: flex;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 85%;
+  overflow: hidden;
+} 
+
+.mapa
+{
+    width:auto;
+    height: 930px;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex: 0 0 40%;
+    flex-direction: column;
+    padding: 0px 0px 40px 0px;
+}
+
+.titulo-mapa-responsivo
+{
+   width: 30%;
+   height: 32px;
+   font-size: 24px;
+   line-height: 30px;
+   text-align: left;
+   margin-bottom: 20px;
+   color: #F7F7F7;
+   display: flex;
+   text-wrap: nowrap;
+   justify-content: left;
+   font-family: Lato;
+   font-weight: 600;
+   letter-spacing: 0.015em;
+   color: #F2F2F2;
+   position: absolute;
+   margin-bottom: 850px;
+}
+
+.itens-mapa
+{
+    margin-top: 30px;
+    padding: 0px 40px 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    overflow: hidden;  
+}
+
+.itens-mapa h2
+{
+   width: 90%;
+   height: 32px;
+   font-size: 22px;
+   line-height: 30px;
+   text-align: left;
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   overflow: hidden;
+   display: none;
+}
+
+.itens-mapa h3
+{
+    width: 195px;
+    height: 24px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;       
+}
+
+.entre-em-contato
+{
+    width: 100%;
+    height: auto;
+    min-height: fit-content;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+    text-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.localizacao
+{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+   
+}
+
+.icone-localizacao
+{
+    width: 20px;
+    height: 20px;
+    padding: 10px 3.33px 1.94px 3.33px;
+    
+}
+
+.endereco
+{
+    width: 382px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    display: flex;
+    margin-left: 1px;
+    margin-top: 10px;
+}
+
+.icone-mapa
+{
+    width: 100%;
+    height: 430px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/*inicio do formulario*/
+
+.formulario
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    flex: 0 0 60%;
+
+}
+
+.itens-formulario
+{
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.preencher
+{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: left;
+    align-items: flex-start;
+    width: 15%;
+    height: 25px;
+    position: absolute;
+    margin-bottom: 660px;
+    margin-left: 15px;
+   
+}
+
+.traco-laranja3
+{
+    width: 20px;
+    height: 10px;
+    margin-top: 5px;
+    margin-bottom: 130px;
+    margin-left: 0px;
+}
+
+.preencher h4
+{
+    font-family: Poppins;
+    font-size: 20px;
+    display: flex;
+    text-wrap: nowrap;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    
+    
+}
+
+.formulario-blocos
+{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 20px;
+    
+     
+}
+
+.formulario-bloco-principal
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    
+}
+
+.formulario-bloco1
+{
+    width: 70%;
+    height: auto;
+    text-wrap: nowrap;
+    padding-top: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding-right: 12px;
+    margin-bottom: 50px;
+}
+.nome 
+{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    overflow: hidden;  
+}
+
+.formulario-nome
+{
+    width: 90%;
+    overflow: hidden;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #F7F7F7;
+    padding-left: 7px;  
+    
+}
+
+.sobrenome 
+{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    
+}
+.formulario-sobrenome
+{
+    width: 90%;
+    height: 48px;
+    padding-left: 7px;
+    
+}
+.email
+{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+   
+}
+.formulario-email
+{
+    width: 90%;
+    height: 48px;
+    padding-left: 7px;
+  
+}
+.telefone 
+{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    
+}
+
+.formulario-telefone
+{
+    width: 90%;
+    height: 48px;
+    padding-left: 7px;
+    
+}
+
+.formulario-bloco2
+{
+    width: 70%;
+    height: auto;
+    padding-bottom: 0px;
+    padding-right: 12px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+
+.bloco-mensagem
+{
+    width: 100%;
+    height: auto;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+}
+
+.mensagem 
+{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    
+}
+
+.formulario-mensagem
+{
+    width: 93%;
+    height: 200px;
+    border:1px solid  #F7F7F7;
+    padding-left: 5px;
+    padding-top: 10px;
+    
+}
+
+.formulario-checkin
+{
+    top: 0px;
+    text-wrap: nowrap;
+    margin-top: 0px;
+    width: 90%;
+    height: auto;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex: 2;
+}
+
+.formulario-checkin input 
+{
+   width: 100%;
+   height: auto;
+   margin-left: 0px;
+   display: flex;
+   justify-content: left;
+   align-items: left;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   flex: 1;
+   margin-top: 5px;
+}
+
+.formulario-checkin p
+{
+   margin-left: 0px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   overflow: hidden;
+   flex-direction: row;
+   width: 89%;
+   min-width: 89%;
+   flex: 1;
+   text-wrap: wrap;
+   margin-bottom: 15px;
+   font-size: 18px;
+   line-height: 24px;
+   
+   
+}
+
+.botao-enviar
+{
+    
+    width: 95%;
+    height: auto;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-wrap: wrap;
+  
+}
+
+.botao-enviar2
+{
+   font-size: 24px;
+   line-height: 24px;
+   text-align: left;
+   margin-top: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: auto;
+   width: 70%;
+   
+}
+
+.botao-enviar2 p 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    text-wrap: wrap;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+}
+
+@media screen and (1560px <= width <= 2500px)
+{
+     
+    #contato
+    {
+       width: 100%;
+       height: 1181px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       overflow: hidden;
+       position: relative;
+    }
+    
+    .texto-contato
+    {
+       display: flex;
+       justify-content: left;
+       align-items: center;
+       padding-left: 0px;
+       width: 84%;
+       height: auto;   
+    }
+    .titulo-contato
+    {
+        padding-top: 0px;
+        margin-bottom: 20px;
+       width: 202px;
+       height: 52px;
+       font-size: 48px;
+       line-height: 52px;
+       text-align: left;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    
+    }
+    
+    .contato-itens
+    {
+      display: flex;
+      padding-left: 0px;
+      padding-right: 0px;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: 85%;
+      overflow: hidden;
+    } 
+    
+    .mapa
+    {
+        width:auto;
+        height: 930px;
+        border-radius: 5px 0px 0px 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        flex: 0 0 40%;
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+        border: 1px solid red;
+    }
+    
+    .titulo-mapa-responsivo
+    {
+       width: 30%;
+       height: 32px;
+       font-size: 26px;
+       line-height: 30px;
+       text-align: left;
+       margin-bottom: 0px;
+       color: #F7F7F7;
+       display: flex;
+       text-wrap: nowrap;
+       justify-content: left;
+       font-family: Lato;
+       font-weight: 600;
+       letter-spacing: 0.015em;
+       color: #F2F2F2;
+       position: absolute;
+       margin-bottom: 850px;
+       
+    }
+    
+    .itens-mapa
+    {
+        margin-top: 0px;
+        padding: 0px 0px 70px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        overflow: hidden;  
+    }
+    
+    .itens-mapa h2
+    {
+       width: 90%;
+       height: 32px;
+       font-size: 22px;
+       line-height: 30px;
+       text-align: left;
+       margin-bottom: 20px;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       overflow: hidden;
+       display: none;
+    }
+    
+    .itens-mapa h3
+    {
+        width: 195px;
+        height: 24px;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.015em;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;       
+    }
+    
+    .entre-em-contato
+    {
+        width: 100%;
+        height: auto;
+        min-height: fit-content;
+        font-size: 22px;
+        line-height: 28px;
+        text-align: left;
+        text-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        overflow: hidden;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    
+    .localizacao
+    {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 30px;
+       
+    }
+    
+    .icone-localizacao
+    {
+        width: 20px;
+        height: 20px;
+        padding: 10px 3.33px 1.94px 3.33px;  
+    }
+    
+    .endereco
+    {
+        width: 382px;
+        height: 24px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        display: flex;
+        margin-left: 1px;
+        margin-top: 10px;
+    }
+    
+    .icone-mapa
+    {
+        width: 100%;
+        height: 430px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    /*inicio do formulario*/
+    
+    .formulario
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        flex: 0 0 60%;
+    
+    }
+    
+    .itens-formulario
+    {
+        margin: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        overflow: hidden;
+        margin-top: 25px;
+       
+    }
+    
+    .preencher
+    {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        width: 15%;
+        height: 25px;
+        position: absolute;
+        margin-bottom: 700px;
+    }
+    
+    .traco-laranja3
+    {
+        width: 20px;
+        height: 10px;
+        margin-top: 7px;
+        margin-bottom: 130px;
+        margin-left: 0px;
+        
+    }
+    
+    .preencher h4
+    {
+        font-family: Poppins;
+        font-size: 25px;
+        display: flex;
+        text-wrap: nowrap;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: auto;
+        line-height: 25px;
+        
+    }
+    
+    .formulario-blocos
+    {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.015em;
+        text-align: left;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 95%;
+        justify-content:center;
+        align-items: center;
+        overflow: hidden;
+        padding-left: 20px;
+        
+         
+    }
+    
+    .formulario-bloco-principal
+    {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+    
+    .formulario-bloco1
+    {
+        width: 70%;
+        height: auto;
+        text-wrap: nowrap;
+        padding-top: 0px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        padding-right: 12px;
+        margin-bottom: 50px;
+    }
+    .nome 
+    {
+        font-size: 22px;
+        line-height: 24px;
+        text-align: left;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        overflow: hidden;  
+    }
+    
+    .formulario-nome
+    {
+        width: 90%;
+        overflow: hidden;
+        height: 48px;
+        border-radius: 5px;
+        border: 1px solid #F7F7F7;
+        padding-left: 7px;  
+        
+    }
+    
+    .sobrenome 
+    {
+        font-size: 22px;
+        line-height: 24px;
+        text-align: left;
+        
+    }
+    .formulario-sobrenome
+    {
+        width: 90%;
+        height: 48px;
+        padding-left: 7px;
+        
+    }
+    .email
+    {
+        font-size: 22px;
+        line-height: 24px;
+        text-align: left;
+       
+    }
+    .formulario-email
+    {
+        width: 90%;
+        height: 48px;
+        padding-left: 7px;
+      
+    }
+    .telefone 
+    {
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.015em;
+        text-align: left;
+        
+    }
+    
+    .formulario-telefone
+    {
+        width: 90%;
+        height: 48px;
+        padding-left: 7px;
+        
+    }
+    
+    .formulario-bloco2
+    {
+        width: 70%;
+        height: auto;
+        padding-bottom: 0px;
+        padding-right: 12px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        margin-bottom: 50px;
+        
+    }
+    
+    .bloco-mensagem
+    {
+        width: 100%;
+        height: auto;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        margin-bottom: 0px;
+        
+    }
+    
+    .mensagem 
+    {
+        font-size: 22px;
+        line-height: 24px;
+        text-align: left;
+        
+    }
+    
+    .formulario-mensagem
+    {
+        width: 93%;
+        height: 200px;
+        border:1px solid  #F7F7F7;
+        padding-left: 5px;
+        padding-top: 0px;
+        
+    }
+    
+    .formulario-checkin
+    {
+        top: 0px;
+        text-wrap: nowrap;
+        margin-top: 0px;
+        width: 90%;
+        height: auto;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        flex: 2;
+    }
+    
+    .formulario-checkin input 
+    {
+       width: 100%;
+       height: auto;
+       margin-left: 0px;
+       display: flex;
+       justify-content: left;
+       align-items: left;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       flex: 1;
+       margin-top: -5pxpx;
+    }
+    
+    .formulario-checkin p
+    {
+       margin-left: 0px;
+       display: flex;
+       justify-content: flex-start;
+       align-items: flex-start;
+       overflow: hidden;
+       flex-direction: row;
+       width: 89%;
+       min-width: 89%;
+       flex: 1;
+       text-wrap: wrap;
+       padding-bottom: 10px;
+       font-size: 20px;
+       line-height: 24px;
+       margin-bottom: 10px;
+       margin-top: -5px;
+       
+    }
+    
+    .botao-enviar
+    {
+        
+        width: 95%;
+        height: auto;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-wrap: wrap;
+      
+    }
+    
+    .botao-enviar2
+    {
+       font-size: 26px;
+       line-height: 26px;
+       text-align: left;
+       margin-top: 0px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: auto;
+       width: 40%;
+       
+    }
+    
+    .botao-enviar2 p 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        text-wrap: wrap;
+        text-align: center;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    
+    
+    
+    
 }
