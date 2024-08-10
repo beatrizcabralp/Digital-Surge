@@ -88,9 +88,13 @@
 
 .redes-sociais
 {
-    width: 160px;
+    width: 360px;
     height: 32px;
     color: #F7F7F7;
+}
+.redes-sociais-icones
+{
+    margin-right: 20px;
 }
 
 .informacoes-footer 
@@ -163,30 +167,80 @@
     color: #C4C4C4;
     margin-left: -1200px;
 }
+.icone-digitalsurge-responsivo
+{
+    display: none;
+}
 
-@media screen and (max-width: 508px)
+@media screen and (max-width: 900px)
 {
     footer 
     {
         width: 100%;
-        height: 265px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .itens-footer
+    {
+       text-decoration: none;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: auto;
+       border: 1px solid blue;
+    }
+
+    .inicio-footer
+    {
+      margin-top: 0px;
+      width: 100%;
+      height: auto;
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid green;
     }
     .icone-digitalsurge
     {
-        width: 56px;
-        height: 24px;
-        margin-left: 40px;
+        display: none;
     }
     .contato-footer
     {
-        margin-left: -50px;
+        margin-left: 50px;
         width: 131px;
         height: 97px;
-        margin-top: 100px;
+        margin-top: 0px;
+        border: 1px solid blue;
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+    .icone-digitalsurge-responsivo
+    {
+        display: flex;
+        justify-content:left;
+        align-items:left;
+        width: 60%;
+        height: 30px;
+        margin-left: -15px;
+        border: 1px solid red;
+        padding-top: 0px;
     }
     .contato-footer-titulo
     {
+        margin-top: 15px;
         padding-bottom: 0;
+        margin-left: 10px;
     }
     .contato-footer-titulo p
     {
@@ -195,6 +249,7 @@
         font-size: 16px;
         line-height: 12px;
         color: #C4C4C4;
+        
     }
     .contato-footer-telefone p
     {
@@ -203,6 +258,7 @@
         font-family: Lato;
         font-size: 12px;
         line-height: 12px;
+        margin-left: 10px;
     }
     .linha-footer
     {
@@ -210,22 +266,42 @@
         height: 1px;
         padding-top: 0px;
         margin-bottom: 10px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .contato-footer-endereco
+    {
+        border: 1px solid green;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
     }
     .contato-footer-endereco p
     {
-        width: 102px;
-        height: 24px;
+        width:100%;
+        height: auto;
         font-size: 12px;
         line-height: 12px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
     .informacoes-footer 
     {
         margin-left: 100px;
+        border: 1px solid red;
     }
     .informacoes-footer-titulo
     {
         padding-bottom: 5px;
-        margin-top: 90px;
+        margin-top: 0px;
     }
     .informacoes-footer-titulo p
     {
@@ -253,7 +329,12 @@
     {
         width: 147px;
         height: 6.58px;
-        margin-top: 400px;
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       /* overflow: hidden;*/
         
     }
     .direitos-autorais p
@@ -269,7 +350,23 @@
     }
     .redes-sociais
     {
-        display: none;
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      border: 1px solid pink;
+      margin-left: 10px;
+    }
+    .redes-sociais-icones
+    {
+       margin-right: 20px;
+       margin-top: 0px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 5%;
+       height: auto;
     }
     
     
