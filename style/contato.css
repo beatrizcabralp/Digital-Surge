@@ -888,7 +888,6 @@
     align-items: center;
     box-sizing: border-box;
     margin-bottom: 0px;
-    border: 1px solid red;
     margin-top: 20px;
 }
 .icone-mapa-responsivo
@@ -900,7 +899,6 @@
    width: 100%;
    margin-top: 0px;
    margin-left: 0px;
-   border: 1px solid red;
 }
 
 }

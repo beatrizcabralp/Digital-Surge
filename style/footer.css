@@ -341,6 +341,7 @@
         text-wrap: wrap;
         flex-direction: column;
         word-break: break-all;
+        display: none;
     }
     .email-footer-responsivo p
     {
@@ -358,6 +359,7 @@
         align-items: flex-start;
         text-wrap: wrap;
         flex-direction: column;
+        display: none;
     }
     .linha-footer
     {
@@ -692,6 +694,7 @@
         text-wrap: wrap;
         flex-direction: column;
         word-break: break-all;
+        display: none;
     }
     .email-footer-responsivo p
     {
@@ -709,6 +712,7 @@
         align-items: flex-start;
         text-wrap: wrap;
         flex-direction: column;
+        display: none;
     }
     .linha-footer
     {

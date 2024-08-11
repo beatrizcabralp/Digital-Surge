@@ -1,35 +1,43 @@
 const initSlider = () => {
     const imageList = document.querySelector(".slide-wrapper .image-list");
     const slideButtons = document.querySelectorAll(".slide-wrapper .slide-button");
-   // const sliderScrollbar = document.querySelector(".container .slider-scrollbar");
-   // const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");
-    const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
 
-    // slide images according to the slide buttons clicks
+    // Assumindo que a largura do item é igual a clientWidth da imageList
+    const slideWidth = imageList.clientWidth;
+
+    let isScrolling = false;
+
+    const scrollToSlide = (direction) => {
+        if (isScrolling) return;
+        isScrolling = true;
+
+        // Calcula o novo scrollLeft baseado na direção
+        const newScrollLeft = imageList.scrollLeft + direction * slideWidth;
+        imageList.scrollTo({
+            left: newScrollLeft,
+            behavior: 'smooth'
+        });
+
+        // Reinicia a rolagem após o fim do carrossel
+        setTimeout(() => {
+            if (imageList.scrollLeft >= imageList.scrollWidth - slideWidth) {
+                imageList.scrollTo({ left: 0, behavior: 'smooth' });
+            } else if (imageList.scrollLeft <= 0) {
+                imageList.scrollTo({ left: imageList.scrollWidth - slideWidth, behavior: 'smooth' });
+            }
+            isScrolling = false;
+        }, 500); // Tempo para garantir que o scroll tenha sido concluído
+    };
+
     slideButtons.forEach(button => {
         button.addEventListener("click", () => {
             const direction = button.id === "prev-slide" ? -1 : 1;
-            const scrollAmount = imageList.clientWidth * direction;
-            imageList.scrollBy({ left: scrollAmount, behavior: "smooth"})
-        })
-    })
+            scrollToSlide(direction);
+        });
+    });
 
-    const  handleSlideButtons = () => {
-        slideButtons[0].style.display = imageList.scrollLeft <= 0 ? "none" : "block";
-        slideButtons[1].style.display = imageList.scrollLeft >= maxScrollLeft ? "none" : "block";
-    }
+    // Inicializa o carrossel com o scroll no início
+    imageList.scrollTo({ left: 0 });
+};
 
-    /* update scrollbar thumb position based on image scroll
-    const updateScrollThumbPosition = () => {
-        const scrollPosition = imageList.scrollLeft;
-        const ScrollThumbPosition = (scrollPosition / maxScrollLeft) * (sliderScrollbar.clientWidth - scrollbarThumb.offsetWidth);
-        scrollbarThumb.style.left = `${thumbPosition}px`;
-    }*/
-
-    imageList.addEventListener("scroll", () => {
-        handleSlideButtons();
-        updateScrollThumbPosition();
-    })
-}
 window.addEventListener("load", initSlider);
-
