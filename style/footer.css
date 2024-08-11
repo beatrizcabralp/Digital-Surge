@@ -931,7 +931,7 @@
     overflow: hidden;
     margin-left: 0px;
     padding-top: 0px;
-    flex: 0 0 25%;
+    flex: 0 0 35%;
 }
 
 .contato-footer
@@ -945,7 +945,7 @@
     margin-left: 0px;
     padding-top: 0px; 
     flex-direction: column;
-    flex: 0 0 38%;
+    flex: 0 0 40%;
 }
 
 .contato-footer-titulo
@@ -1023,7 +1023,7 @@
     padding-top: 0px;
     flex-direction: column;
     padding-left: 20px;
-    flex: 0 0 37%;
+    flex: 0 0 25%;
 }
 
 .informacoes-footer-titulo
