@@ -1,6 +1,7 @@
 .itens-footer
 {
     text-decoration: none;
+    background: #333333;
 }
 
 .inicio-footer
@@ -10,7 +11,7 @@
     height: 520px;
     display:flex;
     flex-direction: row;
-    background: #333333;
+    
 }
 
 .icone-digitalsurge
@@ -171,38 +172,59 @@
 {
     display: none;
 }
+.direitos-autorais-responsivo
+{
+    display: none;
+}
+.direitos-autorais-responsivo-paragafo
+{
+    display: none;
+}
+.email-footer-responsivo 
+{
+    display: none;
+}
 
-@media screen and (max-width: 900px)
+@media screen and (max-width: 600px)
 {
     footer 
     {
         width: 100%;
         height: auto;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         overflow: hidden;
+        text-decoration: none;
+        margin-top: 10px;
+        background: #333333;
     }
     .itens-footer
     {
-       text-decoration: none;
+       
        display: flex;
-       justify-content: center;
+       justify-content: left;
        align-items: center;
        width: 100%;
-       height: auto;
-       border: 1px solid blue;
+       height: 300px;
+       flex-direction: column;
+       padding: 10% 30% 10% 5%;
+       overflow: hidden;
+       flex-wrap: nowrap;
     }
 
     .inicio-footer
     {
       margin-top: 0px;
-      width: 100%;
+      width: 90%;
       height: auto;
       display:flex;
       flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      border: 1px solid green;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0px;
+      margin-left: 0px;
+      overflow: hidden;
+      flex-grow: 1;
     }
     .icone-digitalsurge
     {
@@ -210,143 +232,275 @@
     }
     .contato-footer
     {
-        margin-left: 50px;
-        width: 131px;
-        height: 97px;
+        margin-left: 0px;
         margin-top: 0px;
-        border: 1px solid blue;
         padding-top: 0px;
         display: flex;
-        justify-content: center;
-        align-items: left;
+        justify-content: left;
+        align-items: flex-start;
         flex-direction: column;
-        width: 100%;
+        width: 50%;
         height: auto;
         overflow: hidden;
         flex-wrap: wrap;
+        margin-bottom: 50px;
+        padding-left: 0px;
+        flex: 0 0 50%;
     }
     .icone-digitalsurge-responsivo
     {
         display: flex;
         justify-content:left;
-        align-items:left;
-        width: 60%;
-        height: 30px;
-        margin-left: -15px;
-        border: 1px solid red;
+        align-items:center;
+        width: 75%;
+        height: auto;
+        margin-left: 0px;
         padding-top: 0px;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 15px;
+        height: auto;
+        margin-right: 70px;
+    }
+    .icone-digitalsurge-responsivo2
+    {
+        display: block;
+        width: 35%;
+        height: 30px;
+        overflow: hidden;
+        margin: 0px;
+        padding: 0px;
     }
     .contato-footer-titulo
     {
-        margin-top: 15px;
-        padding-bottom: 0;
-        margin-left: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+        overflow: hidden;
+       flex-wrap: wrap;
+       display: flex;
+        width: 100%;
+        height: auto;
+        padding-bottom: 0px;
     }
     .contato-footer-titulo p
     {
-        width: 48px;
-        height: 12px;
+        display: flex;
+        height: 30px;
+        width: 100%;
         font-size: 16px;
-        line-height: 12px;
-        color: #C4C4C4;
-        
+        line-height: 16px;
+        overflow: hidden;
+        flex-wrap: wrap;
     }
-    .contato-footer-telefone p
+    .contato-footer-telefone
     {
-        width: 126px;
-        height: 24px;
+        width: 100%;
+        height: auto;
         font-family: Lato;
         font-size: 12px;
         line-height: 12px;
-        margin-left: 10px;
+        margin-left: 0px;
+        display: flex;
+        overflow: hidden;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .contato-footer-telefone p
+    {
+        width: 100%;
+        height: auto;
+        font-family: Lato;
+        font-size: 14px;
+        line-height: 14px;
+        margin-left: 0px;
+        display: flex;
+        overflow: hidden;
+       flex-wrap: wrap;
+       margin-bottom: 5px;
+       justify-content: left;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+    .email-footer-responsivo 
+    {
+        width: 100%;
+        height: auto;
+        font-family: Lato;
+        font-size: 12px;
+        line-height: 12px;
+        margin-left: 0px;
+        display: flex;
+        overflow: hidden;
+       flex-wrap: wrap;
+       margin-bottom: 5px;
+       justify-content: left;
+        align-items: flex-start;
+        text-wrap: wrap;
+        flex-direction: column;
+        word-break: break-all;
+    }
+    .email-footer-responsivo p
+    {
+        width: 100%;
+        height: auto;
+        font-family: Lato;
+        font-size: 12px;
+        line-height: 12px;
+        margin-left: 0px;
+        display: flex;
+        overflow: hidden;
+       flex-wrap: wrap;
+       margin-bottom: 5px;
+       justify-content: left;
+        align-items: flex-start;
+        text-wrap: wrap;
+        flex-direction: column;
     }
     .linha-footer
     {
-        width: 130px;
-        height: 1px;
         padding-top: 0px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-    }
-    .contato-footer-endereco
-    {
-        border: 1px solid green;
+        margin-bottom: 5px;
         margin-left: 0px;
         display: flex;
         justify-content: center;
-        align-items: center;
-        width: 100%;
+        align-items: flex-start;
+        overflow: hidden;
+       flex-wrap: wrap;
+       width: 100%;
+       height: auto;
+    }
+    .contato-footer-endereco
+    {
+        margin-left: 0px;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        width: 70%;
         height: auto;
         flex-direction: column;
+        overflow: hidden;
+       flex-wrap: wrap;
     }
     .contato-footer-endereco p
     {
         width:100%;
         height: auto;
-        font-size: 12px;
-        line-height: 12px;
-        margin-left: 10px;
+        font-size: 14px;
+        line-height: 14px;
+        margin-left: 0px;
         display: flex;
-        justify-content: flex-start;
+        justify-content: left;
         align-items: center;
+        overflow: hidden;
+       flex-wrap: wrap;
+       margin-top: 5px;
+       margin-bottom: 5px;
     }
     .informacoes-footer 
     {
-        margin-left: 100px;
-        border: 1px solid red;
+        margin-left: 30px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        width: 70%;
+        height: auto;
+        padding-top: 0px;
+        flex-direction: column;
+        overflow: hidden;
+       flex-wrap: wrap;
+       flex: 0 0 50%;
+        
     }
     .informacoes-footer-titulo
     {
-        padding-bottom: 5px;
-        margin-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 50px;
+        display: flex;
+        align-items:center;
+        justify-content:left;
+        width: 70%;
+        height: auto;
+        color: #C4C4C4;
+        overflow: hidden;
+       flex-wrap: wrap;
     }
     .informacoes-footer-titulo p
     {
         width: 73px;
         height: 12px;
         font-size: 16px;
-        font-family: Lato;
+        display: flex;
+        align-items: left;
+        justify-content:left;
+        width: 100%;
+        height: auto;
         color: #C4C4C4;
+        overflow: hidden;
+       flex-wrap: wrap;
     }
     .footer-links
     {
-        width: 24px;
-        height: 14px;
-        font-family: Lato;
-        font-size: 11px;
-        color: #C4C4C4;
+        font-size: 15px;
         margin-bottom: 0px;
         line-height: 20px;
+        display: flex;
+        align-items: left;
+        justify-content:flex-start;
+        width: 70%;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 10px;
+        overflow: hidden;
+       flex-wrap: wrap;
     }
     .footer-links a
     {
-        margin-bottom: 0px;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: left;
+        justify-content:flex-start;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+       flex-wrap: wrap;
+       font-size: 12px;
     }
     .direitos-autorais
     {
-        width: 147px;
-        height: 6.58px;
-        margin-top: 90px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-       /* overflow: hidden;*/
-        
+        display: none;
     }
     .direitos-autorais p
     {
-        font-family: Lato;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 10px;
-        text-align: left;
-        
-        color: #C4C4C4;
-        margin-left: -350px;
+        display: none;
+    }
+    .direitos-autorais-responsivo
+    {
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 5px;
+    }
+    .direitos-autorais-responsivo-paragrafo
+    {
+         font-family: Lato;
+         font-weight: 600;
+         text-align: left;
+         color: #C4C4C4;
+         font-size: 14px;
+         line-height: 14px;
+         height: auto;
+         width: 100%;
+         display: flex;
+         justify-content: left;
+         overflow: hidden;
+         flex-wrap: wrap;
     }
     .redes-sociais
     {
@@ -355,19 +509,609 @@
       display: flex;
       justify-content: left;
       align-items: center;
-      border: 1px solid pink;
-      margin-left: 10px;
+      margin-left: 0px;
+      overflow: hidden;
+       flex-wrap: nowrap;
+       margin-bottom: 10px;
     }
-    .redes-sociais-icones
+    .redes-sociais-icones 
     {
        margin-right: 20px;
        margin-top: 0px;
        display: flex;
        justify-content: center;
        align-items: center;
-       width: 5%;
+       width: 10%;
        height: auto;
+       
+       overflow: hidden;
+       flex-wrap: nowrap;
+       
     }
     
+    
+}
+
+@media screen and (601px <= width <= 900px)
+{
+    footer 
+    {
+        width: 100%;
+        height: auto;
+        justify-content: left;
+        align-items: center;
+        overflow: hidden;
+        text-decoration: none;
+        margin-top: 50px;
+        background: #333333;
+    }
+    .itens-footer
+    {
+       
+       display: flex;
+       justify-content: left;
+       align-items: center;
+       width: 100%;
+       height: 380px;
+       flex-direction: column;
+       padding: 15% 30% 15% 5%;
+       overflow: hidden;
+       flex-wrap: nowrap;
+    }
+
+    .inicio-footer
+    {
+      margin-top: 0px;
+      width: 90%;
+      height: auto;
+      display:flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0px;
+      margin-left: 0px;
+      overflow: hidden;
+      flex-grow: 1;
+    }
+    .icone-digitalsurge
+    {
+        display: none;
+    }
+    .contato-footer
+    {
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 0px;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 50%;
+        height: 600px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        padding-left: 0px;
+        flex: 0 0 50%;
+    }
+    .icone-digitalsurge-responsivo
+    {
+        display: flex;
+        justify-content:left;
+        align-items:center;
+        width: 75%;
+        height: auto;
+        margin-left: 0px;
+        padding-top: 0px;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 15px;
+        height: auto;
+        margin-right: 70px;
+        
+    }
+    .icone-digitalsurge-responsivo2
+    {
+        display: block;
+        width: 35%;
+        height: 50px;
+        overflow: hidden;
+        margin: 0px;
+        padding: 0px;
+    }
+    .contato-footer-titulo
+    {
+        margin-top: 18px;
+        margin-left: 0px;
+        overflow: hidden;
+       flex-wrap: wrap;
+       display: flex;
+        width: 100%;
+        height: auto;
+        padding-bottom: 0px;
+        margin-bottom: 15px;
+        color: #C4C4C4;
+    }
+    .contato-footer-titulo p
+    {
+        display: flex;
+        height: 30px;
+        width: 100%;
+        font-size: 22px;
+        line-height: 22px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        color: #C4C4C4;
+    }
+    .contato-footer-telefone
+    {
+        width: 100%;
+        height: auto;
+        font-family: Lato;
+        font-size: 15px;
+        line-height: 15px;
+        margin-left: 0px;
+        display: flex;
+        overflow: hidden;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .contato-footer-telefone p
+    {
+        width: 100%;
+        height: auto;
+        font-family: Lato;
+        font-size: 15px;
+        line-height: 15px;
+        margin-left: 0px;
+        display: flex;
+        overflow: hidden;
+       flex-wrap: wrap;
+       margin-bottom: 5px;
+       justify-content: left;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+    .email-footer-responsivo 
+    {
+        width: 100%;
+        height: auto;
+        font-family: Lato;
+        font-size:15px;
+        line-height:15px;
+        margin-left: 15px;
+        display: flex;
+        overflow: hidden;
+       flex-wrap: wrap;
+       margin-bottom: 5px;
+       justify-content: left;
+        align-items: flex-start;
+        text-wrap: wrap;
+        flex-direction: column;
+        word-break: break-all;
+    }
+    .email-footer-responsivo p
+    {
+        width: 100%;
+        height: auto;
+        font-family: Lato;
+        font-size: 16px;
+        line-height: 16px;
+        margin-left: 0px;
+        display: flex;
+        overflow: hidden;
+       flex-wrap: wrap;
+       margin-bottom: 5px;
+       justify-content: left;
+        align-items: flex-start;
+        text-wrap: wrap;
+        flex-direction: column;
+    }
+    .linha-footer
+    {
+        padding-top: 0px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        overflow: hidden;
+       flex-wrap: wrap;
+       width: 100%;
+       height: auto;
+    }
+    .contato-footer-endereco
+    {
+        margin-left: 0px;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        width: 70%;
+        height: auto;
+        flex-direction: column;
+        overflow: hidden;
+       flex-wrap: wrap;
+    }
+    .contato-footer-endereco p
+    {
+        width:100%;
+        height: auto;
+        font-size: 15px;
+        line-height: 15px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        overflow: hidden;
+       flex-wrap: wrap;
+       margin-top: 5px;
+       margin-bottom: 5px;
+    }
+    .informacoes-footer 
+    {
+        margin-left: 30px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        width: 70%;
+        height: auto;
+        padding-top: 0px;
+        flex-direction: column;
+        overflow: hidden;
+       flex-wrap: wrap;
+       flex: 0 0 50%;
+        
+    }
+    .informacoes-footer-titulo
+    {
+        padding-bottom: 20px;
+        margin-top: 90px;
+        display: flex;
+        align-items:center;
+        justify-content:left;
+        width: 70%;
+        height: auto;
+        color: #C4C4C4;
+        overflow: hidden;
+       flex-wrap: wrap;
+    }
+    .informacoes-footer-titulo p
+    {
+        width: 73px;
+        height: 12px;
+        font-size: 22px;
+        display: flex;
+        align-items: left;
+        justify-content:left;
+        width: 100%;
+        height: auto;
+        color: #C4C4C4;
+        overflow: hidden;
+       flex-wrap: wrap;
+       line-height: 22px;
+    }
+    .footer-links
+    {
+        font-size: 15px;
+        margin-bottom: 0px;
+        line-height: 20px;
+        display: flex;
+        align-items: left;
+        justify-content:flex-start;
+        width: 70%;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 10px;
+        overflow: hidden;
+       flex-wrap: wrap;
+    }
+    .footer-links a
+    {
+        margin-bottom: 16px;
+        display: flex;
+        align-items: left;
+        justify-content:flex-start;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+       flex-wrap: wrap;
+       font-size:15px;
+       line-height:15px;
+    }
+    .direitos-autorais
+    {
+        display: none;
+    }
+    .direitos-autorais p
+    {
+        display: none;
+    }
+    .direitos-autorais-responsivo
+    {
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 10px;
+        margin-left: 0px;
+       
+    }
+    .direitos-autorais-responsivo-paragrafo
+    {
+         font-family: Lato;
+         font-weight: 600;
+         text-align: left;
+         color: #C4C4C4;
+         font-size: 18px;
+         line-height: 18px;
+         height: auto;
+         width: 100%;
+         display: flex;
+         justify-content: left;
+         overflow: hidden;
+         flex-wrap: wrap;
+    }
+    .redes-sociais
+    {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin-left: 0px;
+      overflow: hidden;
+       flex-wrap: nowrap;
+       margin-bottom: 0px;
+    }
+    .redes-sociais-icones 
+    {
+       margin-right: 20px;
+       margin-top: 0px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 10%;
+       height: auto;
+       overflow: hidden;
+       flex-wrap: nowrap;
+    }
+    
+    
+}
+
+@media screen and (min-width: 901px) 
+{
+    .footer
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .itens-footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    padding: 5% 30% 5% 5%;
+}
+
+.inicio-footer
+{
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.icone-digitalsurge
+{
+    width: 100%;
+    height: 60px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    overflow: hidden;
+    margin-left: 0px;
+    padding-top: 0px;
+    flex: 0 0 25%;
+}
+
+.contato-footer
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:left;
+    align-items: flex-start;
+    overflow: hidden;
+    margin-left: 0px;
+    padding-top: 0px; 
+    flex-direction: column;
+    flex: 0 0 38%;
+}
+
+.contato-footer-titulo
+{
+    width: 116px;
+    height: 32px;
+    padding-bottom: 40px;
+}
+
+.contato-footer-titulo p
+{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #F7F7F7;
+}
+
+.contato-footer-telefone
+{
+    width: 227px;
+    height: 64px;
+}
+
+.contato-footer-telefone p
+{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #C4C4C4;
+}
+
+.linha-footer
+{
+    padding-top: 30px;
+    width: 360px;
+    height: 1px;
+    border-bottom: 1px solid #4D4D4D ;
+    margin-bottom: 30px;
+}
+
+.contato-footer-endereco p
+{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #C4C4C4;
+}
+
+.redes-sociais
+{
+    width: 360px;
+    height: 32px;
+    color: #F7F7F7;
+}
+.redes-sociais-icones
+{
+    margin-right: 25px;
+}
+
+.informacoes-footer 
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    padding-top: 0px;
+    flex-direction: column;
+    padding-left: 20px;
+    flex: 0 0 37%;
+}
+
+.informacoes-footer-titulo
+{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.informacoes-footer-titulo p
+{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #F7F7F7;
+}
+
+.footer-links 
+{
+    width: 100%;
+    height: auto;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: #C4C4C4;
+}
+
+.footer-links li
+{
+    font-family: Poppins;
+
+}
+
+.footer-links a
+{
+    color: #C4C4C4;
+    text-decoration: none;
+}
+
+.direitos-autorais
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-top: 0px;
+    text-wrap: nowrap;
+    margin-top: 30px;
+}
+
+.direitos-autorais p
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0px;
+    text-wrap: nowrap;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #C4C4C4;
+    margin-left: 0px;
+}
+.icone-digitalsurge-responsivo
+{
+    display: none;
+}
+.direitos-autorais-responsivo
+{
+    display: none;
+}
+.direitos-autorais-responsivo-paragafo
+{
+    display: none;
+}
+.email-footer-responsivo 
+{
+    display: none;
+}
     
 }

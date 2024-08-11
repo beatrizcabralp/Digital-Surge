@@ -478,14 +478,14 @@
     width: auto;
     height: auto;
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
 .itens-mapa
 {
-    padding: 125px 13px 20px 13px;
+    padding: 130px 60px 20px 0px;
     height: auto;
     width: 100%;
     display: flex;
@@ -519,9 +519,9 @@
     justify-content: center;
     align-items: flex-start;
     overflow: hidden;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 28px;
     text-wrap: wrap;
 }
 .icone-localizacao
@@ -966,7 +966,7 @@
   }
   .itens-mapa
   {
-      padding: 100px 20px 0px 20px;
+      padding: 120px 70px 0px 10px;
       height: auto;
       width: 100%;
       display: flex;
@@ -999,9 +999,9 @@
       justify-content: center;
       align-items: flex-start;
       overflow: hidden;
-      font-size: 25px;
+      font-size: 22px;
       font-weight: 500;
-      line-height: 35px;
+      line-height: 32px;
       flex-wrap: wrap;
   }
   .icone-localizacao
@@ -1442,7 +1442,7 @@
   }
   .itens-mapa
   {
-      padding: 100px 20px 0px 20px;
+      padding: 110px 70px 0px 10px;
       height: auto;
       display: flex;
       width: 100%;
@@ -1930,7 +1930,7 @@
   }
   .itens-mapa
   {
-      padding: 100px 20px 60px 20px;
+      padding: 100px 60px 60px 0px;
       height: auto;
       display: flex;
       justify-content: center;
