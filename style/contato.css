@@ -1994,8 +1994,7 @@
       max-width: 100%;
       justify-content: center;
       align-items: center;
-      box-sizing: border-box;
-      overflow: hidden;
+      
   }
   .preencher 
   {
